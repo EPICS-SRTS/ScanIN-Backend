@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Adminox - Responsive Web App Kit</title>
+        <title>ScanIN - Login</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
         <meta content="Coderthemes" name="author" />
@@ -41,11 +41,11 @@
                                     <div class="account-logo-box">
                                         <h2 class="text-uppercase text-center">
                                             <a href="index.html" class="text-success">
-                                                <span><img src="assets/images/logo_dark.png" alt="" height="30"></span>
+                                                <span><img src="assets/images/ScanIN_Logo_Dark.png" alt="" height="30"></span>
                                             </a>
                                         </h2>
                                         <h5 class="text-uppercase font-bold m-b-5 m-t-50">Sign In</h5>
-                                        <p class="m-b-0">Login to your Admin account</p>
+                                        <p class="m-b-0">Login to your ScanIN account</p>
                                     </div>
                                     <div class="account-content">
                                         <form class="form-horizontal" action="#">
@@ -53,7 +53,7 @@
                                             <div class="form-group m-b-20">
                                                 <div class="col-xs-12">
                                                     <label for="emailaddress">Email address</label>
-                                                    <input class="form-control" type="email" id="emailaddress" required="" placeholder="john@deo.com">
+                                                    <input class="form-control" type="email" id="emailaddress" name="email" required="" placeholder="matthew@purdue.edu">
                                                 </div>
                                             </div>
 
@@ -61,7 +61,7 @@
                                                 <div class="col-xs-12">
                                                     <a href="page-recoverpw.html" class="text-muted pull-right"><small>Forgot your password?</small></a>
                                                     <label for="password">Password</label>
-                                                    <input class="form-control" type="password" required="" id="password" placeholder="Enter your password">
+                                                    <input class="form-control" type="password" required="" id="password" name="password" placeholder="Enter your password">
                                                 </div>
                                             </div>
 
@@ -85,23 +85,6 @@
                                             </div>
 
                                         </form>
-
-                                        <div class="row">
-                                            <div class="col-sm-12">
-                                                <div class="text-center">
-                                                    <button type="button" class="btn m-r-5 btn-facebook waves-effect waves-light">
-                                                        <i class="fa fa-facebook"></i>
-                                                    </button>
-                                                    <button type="button" class="btn m-r-5 btn-googleplus waves-effect waves-light">
-                                                        <i class="fa fa-google"></i>
-                                                    </button>
-                                                    <button type="button" class="btn m-r-5 btn-twitter waves-effect waves-light">
-                                                        <i class="fa fa-twitter"></i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-
                                         <div class="row m-t-50">
                                             <div class="col-sm-12 text-center">
                                                 <p class="text-muted">Don't have an account? <a href="page-register.html" class="text-dark m-l-5"><b>Sign Up</b></a></p>
