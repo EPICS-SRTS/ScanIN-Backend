@@ -41,14 +41,14 @@
                                     <div class="account-logo-box">
                                         <h2 class="text-uppercase text-center">
                                             <a href="index.html" class="text-success">
-                                                <span><img src="assets/images/ScanIN_Logo_Dark.png" alt="" height="30"></span>
+                                                <span><img src="assets/images/ScanIN_Logo_Dark.png" alt="" height="60"></span>
                                             </a>
                                         </h2>
                                         <h5 class="text-uppercase font-bold m-b-5 m-t-50">Sign In</h5>
                                         <p class="m-b-0">Login to your ScanIN account</p>
                                     </div>
                                     <div class="account-content">
-                                        <form class="form-horizontal" action="#">
+                                        <form class="form-horizontal" action="backend/loginValidator.php" method="post">
 
                                             <div class="form-group m-b-20">
                                                 <div class="col-xs-12">

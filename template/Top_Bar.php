@@ -7,10 +7,10 @@
         <!-- Image logo -->
         <a href="index.html" class="logo">
                                 <span>
-                                    <img src="assets/images/logo.png" alt="" height="25">
+                                    <img src="<?php echo $logoPATH; ?>" alt="" height="40">
                                 </span>
             <i>
-                <img src="assets/images/logo_sm.png" alt="" height="28">
+                <img src="<?php echo $logoPATH; ?>" alt="" height="40">
             </i>
         </a>
     </div>
