@@ -6,6 +6,7 @@
         <div id="sidebar-menu">
             <!-- Left Menu Start -->
             <ul class="metisMenu nav" id="side-menu">
+                <?php if(false){ ?>
                 <li class="menu-title">Navigation</li>
                 <li>
                     <a href="javascript: void(0);" aria-expanded="true"><i class="fi-air-play"></i><span class="badge badge-success pull-right">2</span> <span> Dashboard </span></a>
@@ -201,7 +202,7 @@
                         </li>
                     </ul>
                 </li>
-
+<?php } ?>
             </ul>
 
         </div>
