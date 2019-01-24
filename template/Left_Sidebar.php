@@ -2,39 +2,38 @@
 <div class="left side-menu">
     <div class="slimscroll-menu" id="remove-scroll">
 
+
         <!--- Sidemenu -->
         <div id="sidebar-menu">
             <!-- Left Menu Start -->
             <ul class="metisMenu nav" id="side-menu">
-                <?php if(false){ ?>
                 <li class="menu-title">Navigation</li>
                 <li>
-                    <a href="javascript: void(0);" aria-expanded="true"><i class="fi-air-play"></i><span class="badge badge-success pull-right">2</span> <span> Dashboard </span></a>
+                    <a href="home.php"><i class="fas fa-home"></i> <span> Home </span></a>
+                </li>
+
+                <li>
+                    <a href="javascript: void(0);" aria-expanded="true"><i class="fas fa-users"></i>
+                        <span> Members </span> <span class="menu-arrow"></span></a>
                     <ul class="nav-second-level nav" aria-expanded="true">
-                        <li><a href="index.html">Dashboard 1</a></li>
-                        <li><a href="dashboard-2.html">Dashboard 2</a></li>
+                        <li><a href="admin-grid.html">Active Members</a></li>
+                        <li><a href="admin-sweet-alert.html">Suspended Members</a></li>
+                        <li><a href="admin-tiles.html">Terminated Members</a></li>
+                        <li><a href="admin-nestable.html">Temporary Member</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="javascript: void(0);" aria-expanded="true"><i class="far fa-life-ring"></i>
+                        <span> Support </span> <span class="menu-arrow"></span></a>
+                    <ul class="nav-second-level nav" aria-expanded="true">
+                        <li><a href="support/login/login_action/?user=ka7640&pass=Khalifa@1764">Ticketing</a></li>
+                        <li><a href="admin-sweet-alert.html">Contact Us</a></li>
                     </ul>
                 </li>
 
                 <li>
-                    <a href="javascript: void(0);" aria-expanded="true"><i class="fi-target"></i> <span> Admin UI </span> <span class="menu-arrow"></span></a>
-                    <ul class="nav-second-level nav" aria-expanded="true">
-                        <li><a href="admin-grid.html">Grid</a></li>
-                        <li><a href="admin-sweet-alert.html">Sweet Alert</a></li>
-                        <li><a href="admin-tiles.html">Tiles Box</a></li>
-                        <li><a href="admin-nestable.html">Nestable List</a></li>
-                        <li><a href="admin-rangeslider.html">Range Slider</a></li>
-                        <li><a href="admin-ratings.html">Ratings</a></li>
-                        <li><a href="admin-filemanager.html">File Manager</a></li>
-                        <li><a href="admin-lightbox.html">Lightbox</a></li>
-                        <li><a href="admin-scrollbar.html">Scroll bar</a></li>
-                        <li><a href="admin-slider.html">Slider</a></li>
-                        <li><a href="admin-treeview.html">Treeview</a></li>
-                    </ul>
-                </li>
-
-                <li>
-                    <a href="javascript: void(0);" aria-expanded="true"><i class="fi-briefcase"></i> <span> UI Kit </span> <span class="menu-arrow"></span></a>
+                    <a href="javascript: void(0);" aria-expanded="true"><i class="fi-briefcase"></i>
+                        <span> UI Kit </span> <span class="menu-arrow"></span></a>
                     <ul class="nav-second-level nav" aria-expanded="true">
                         <li><a href="ui-typography.html">Typography</a></li>
                         <li><a href="ui-panels.html">Panels</a></li>
@@ -56,11 +55,13 @@
                 </li>
 
                 <li>
-                    <a href="tickets.html"><i class="fi-help"></i><span class="badge badge-danger pull-right">New</span> <span> Tickets </span></a>
+                    <a href="tickets.html"><i class="fi-help"></i><span class="badge badge-danger pull-right">New</span>
+                        <span> Tickets </span></a>
                 </li>
 
                 <li>
-                    <a href="javascript: void(0);" aria-expanded="true"><i class="fi-box"></i><span> Icons </span> <span class="menu-arrow"></span></a>
+                    <a href="javascript: void(0);" aria-expanded="true"><i class="fi-box"></i><span> Icons </span> <span
+                                class="menu-arrow"></span></a>
                     <ul class="nav-second-level nav" aria-expanded="true">
                         <li><a href="icons-colored.html">Colored Icons</a></li>
                         <li><a href="icons-materialdesign.html">Material Design</a></li>
@@ -76,7 +77,8 @@
                 </li>
 
                 <li>
-                    <a href="javascript: void(0);" aria-expanded="true"><i class="fi-bar-graph-2"></i><span> Graphs </span> <span class="menu-arrow"></span></a>
+                    <a href="javascript: void(0);" aria-expanded="true"><i
+                                class="fi-bar-graph-2"></i><span> Graphs </span> <span class="menu-arrow"></span></a>
                     <ul class="nav-second-level nav" aria-expanded="true">
                         <li><a href="chart-flot.html">Flot Chart</a></li>
                         <li><a href="chart-morris.html">Morris Chart</a></li>
@@ -92,7 +94,8 @@
                 </li>
 
                 <li>
-                    <a href="javascript: void(0);" aria-expanded="true"><i class="fi-mail"></i><span> Email </span> <span class="menu-arrow"></span></a>
+                    <a href="javascript: void(0);" aria-expanded="true"><i class="fi-mail"></i><span> Email </span>
+                        <span class="menu-arrow"></span></a>
                     <ul class="nav-second-level nav" aria-expanded="true">
                         <li><a href="email-inbox.html">Inbox</a></li>
                         <li><a href="email-read.html">Read Email</a></li>
@@ -105,7 +108,8 @@
                 </li>
 
                 <li>
-                    <a href="javascript: void(0);" aria-expanded="true"><i class="fi-disc"></i><span class="badge badge-warning pull-right">12</span> <span> Forms </span></a>
+                    <a href="javascript: void(0);" aria-expanded="true"><i class="fi-disc"></i><span
+                                class="badge badge-warning pull-right">12</span> <span> Forms </span></a>
                     <ul class="nav-second-level nav" aria-expanded="true">
                         <li><a href="form-elements.html">Form Elements</a></li>
                         <li><a href="form-advanced.html">Form Advanced</a></li>
@@ -123,7 +127,8 @@
                 </li>
 
                 <li>
-                    <a href="javascript: void(0);" aria-expanded="true"><i class="fi-layout"></i> <span> Tables </span> <span class="menu-arrow"></span></a>
+                    <a href="javascript: void(0);" aria-expanded="true"><i class="fi-layout"></i> <span> Tables </span>
+                        <span class="menu-arrow"></span></a>
                     <ul class="nav-second-level nav" aria-expanded="true">
                         <li><a href="tables-basic.html">Basic Tables</a></li>
                         <li><a href="tables-layouts.html">Tables Layouts</a></li>
@@ -138,7 +143,8 @@
                 <li class="menu-title">More</li>
 
                 <li>
-                    <a href="javascript: void(0);" aria-expanded="true"><i class="fi-map"></i> <span> Maps </span> <span class="menu-arrow"></span></a>
+                    <a href="javascript: void(0);" aria-expanded="true"><i class="fi-map"></i> <span> Maps </span> <span
+                                class="menu-arrow"></span></a>
                     <ul class="nav-second-level nav" aria-expanded="true">
                         <li><a href="maps-google.html">Google Maps</a></li>
                         <li><a href="maps-google-full.html">Full Google Map</a></li>
@@ -150,7 +156,8 @@
                 <li><a href="calendar.html"><i class="fi-clock"></i> <span>Calendar</span> </a></li>
 
                 <li>
-                    <a href="javascript: void(0);" aria-expanded="true"><i class="fi-paper-stack"></i><span> Pages </span> <span class="menu-arrow"></span></a>
+                    <a href="javascript: void(0);" aria-expanded="true"><i
+                                class="fi-paper-stack"></i><span> Pages </span> <span class="menu-arrow"></span></a>
                     <ul class="nav-second-level nav" aria-expanded="true">
                         <li><a href="page-starter.html">Starter Page</a></li>
                         <li><a href="login.php">Login</a></li>
@@ -166,7 +173,8 @@
                 </li>
 
                 <li class="has_sub">
-                    <a href="javascript:void(0);"><i class="fi-marquee-plus"></i><span> Extra Pages </span> <span class="menu-arrow"></span></a>
+                    <a href="javascript:void(0);"><i class="fi-marquee-plus"></i><span> Extra Pages </span> <span
+                                class="menu-arrow"></span></a>
                     <ul class="nav-second-level nav" aria-expanded="true">
                         <li><a href="extras-about.html">About Us</a></li>
                         <li><a href="extras-contact.html">Contact</a></li>
@@ -191,10 +199,12 @@
                 </li>
 
                 <li>
-                    <a href="javascript: void(0);" aria-expanded="true"><i class="fi-share"></i> <span>Multi Level</span> <span class="menu-arrow"></span></a>
+                    <a href="javascript: void(0);" aria-expanded="true"><i class="fi-share"></i>
+                        <span>Multi Level</span> <span class="menu-arrow"></span></a>
                     <ul class="nav-second-level nav" aria-expanded="true">
                         <li><a href="javascript: void(0);">Level 1.1</a></li>
-                        <li><a href="javascript: void(0);" aria-expanded="true">Level 1.2 <span class="menu-arrow"></span></a>
+                        <li><a href="javascript: void(0);" aria-expanded="true">Level 1.2 <span
+                                        class="menu-arrow"></span></a>
                             <ul class="nav-third-level nav" aria-expanded="true">
                                 <li><a href="javascript: void(0);">Level 2.1</a></li>
                                 <li><a href="javascript: void(0);">Level 2.2</a></li>
@@ -202,7 +212,7 @@
                         </li>
                     </ul>
                 </li>
-<?php } ?>
+
             </ul>
 
         </div>

@@ -1,0 +1,119 @@
+*, body, html { outline:none !important; font-family:'Open Sans', sans-serif; }
+body {
+	text-align:center;
+	background-color:#f2f5f7;
+	color:#555;
+}
+#error, #success {
+	display:none;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:1em;
+	width:100%;
+	padding:5px 15px;
+	color:#FFF;
+	margin-bottom:15px;
+}
+#error { background-color:#f06464; }
+#success { background-color:#58d255; }
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'PT Sans', sans-serif;
+	font-weight:700;
+}
+#container {
+	min-width:300px;
+	max-width:400px;
+	margin:100px auto 80px auto;
+	padding:0 10px;
+}
+#central-container {
+	width:100%;
+	background-color:#FFF;
+	text-align:left;
+	margin:20px auto auto auto;
+	border:1px solid #ddd;
+	padding:16px 25px;
+}
+
+label {
+	width:100%;
+	line-height:1em;
+	font-family: 'Open Sans', sans-serif;
+	font-size:0.9em;
+	font-weight:700;
+}
+input[type=text], input[type=password], input[type=email], textarea, select, #editor {
+	width:100%;
+	font-family: 'Source Sans Pro', sans-serif !important;
+	letter-spacing:-0.03em;
+	font-size:1em;
+	padding:5px 10px;
+	border:1px solid #d0d0d0;
+	color:#999;
+	margin-bottom:30px;
+}
+
+textarea.nostyle, textarea.nostyle:hover, textarea.nostyle:focus {
+	outline:none !important;
+	border:none;
+	box-shadow:none !important;
+	background-color:#f8f8f8;
+}
+
+input[type=text]:hover, input[type=password]:hover, input[type=email]:hover,
+textarea:hover, select:hover, #editor:hover {
+	border-color:#c0c0c0;
+	color:#888;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus,
+textarea:focus, select:focus {
+	color:#555;
+	box-shadow:0 0 3px #1b7de2;
+	border-color:#83c0ff;
+}
+
+input[type=submit] {
+	margin-top:35px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:1em;
+	font-weight:600;
+	clear:both;
+	background-color:#2691ff;
+	border:none;
+	color:#FFF;
+	padding:5px 30px;
+	transition:all ease 0.2s;
+	-webkit-transition:all ease 0.2s;
+	-moz-transition:all ease 0.2s;
+	-o-transition:all l 0.2s;
+}
+input[type=submit]:hover {
+	background-color:#429ffd;
+}
+
+input::-webkit-input-placeholder { color:#b5b5b5 !important; }
+input::-ms-placeholder { color:#b5b5b5 !important; }
+input:-moz-placeholder { color:#b5b5b5 !important; }
+input::-moz-placeholder { color:#b5b5b5 !important; }
+
+input.error, input.error:hover, input.error:focus {
+	border-color:#FF0000;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+
+
+@media(max-width:400px) {
+	#container {
+		margin:50px auto 80px auto;
+	}
+	#central-container {
+		width:100%;
+		background-color:#FFF;
+		text-align:left;
+		margin:20px auto auto auto;
+		border:1px solid #ddd;
+		padding:16px 15px;
+	}
+}
