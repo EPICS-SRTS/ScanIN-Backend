@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed5298a6-c28f-4709-9161-c5caf3278382" name="Default Changelist" comment="" />
+    <list default="true" id="ed5298a6-c28f-4709-9161-c5caf3278382" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ActiveMembers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SuspendedMembers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemporaryMembers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TerminatedMembers.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remote/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/remote/database.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/support/application/controllers/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/support/application/controllers/Login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/Left_Sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/Left_Sidebar.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,13 +18,70 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/support/composer.json</pharConfigPath>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Left_Sidebar.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Left_Sidebar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/Left_Sidebar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+            <state relative-caret-position="228">
+              <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TemporaryMembers.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TemporaryMembers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="49" column="63" selection-start-line="49" selection-start-column="63" selection-end-line="49" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/support/application/controllers/Login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="78" column="17" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/remote/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="10" column="75" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TerminatedMembers.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TerminatedMembers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="49" column="63" selection-start-line="49" selection-start-column="63" selection-end-line="49" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SuspendedMembers.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SuspendedMembers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="49" column="63" selection-start-line="49" selection-start-column="63" selection-end-line="49" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActiveMembers.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ActiveMembers.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="49" column="63" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -68,8 +134,13 @@
         <option value="$PROJECT_DIR$/account/register.php" />
         <option value="$PROJECT_DIR$/support/install/install.php" />
         <option value="$PROJECT_DIR$/home.php" />
-        <option value="$PROJECT_DIR$/support/application/controllers/Login.php" />
         <option value="$PROJECT_DIR$/template/Left_Sidebar.php" />
+        <option value="$PROJECT_DIR$/ActiveMembers.php" />
+        <option value="$PROJECT_DIR$/SuspendedMembers.php" />
+        <option value="$PROJECT_DIR$/TerminatedMembers.php" />
+        <option value="$PROJECT_DIR$/TemporaryMembers.php" />
+        <option value="$PROJECT_DIR$/support/application/controllers/Login.php" />
+        <option value="$PROJECT_DIR$/remote/database.php" />
       </list>
     </option>
   </component>
@@ -94,22 +165,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="ScanIN-Backend" type="b2602c69:ProjectViewProjectNode" />
               <item name="ScanIN-Backend" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScanIN-Backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScanIN-Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="account" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScanIN-Backend" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScanIN-Backend" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ScanIN-Backend" type="b2602c69:ProjectViewProjectNode" />
@@ -125,7 +187,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -136,11 +197,11 @@
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/account" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -167,11 +228,12 @@
       <updated>1547929831595</updated>
       <workItem from="1547929832710" duration="8373000" />
       <workItem from="1548253824468" duration="9679000" />
+      <workItem from="1548350015155" duration="882000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18052000" />
+    <option name="totallyTimeSpent" value="18934000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -184,10 +246,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30371568" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3085622" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -197,6 +258,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +268,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/template/Left_Sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/account/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
@@ -220,13 +289,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7920">
-          <caret line="528" column="20" selection-start-line="528" selection-start-column="17" selection-end-line="528" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/template.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
@@ -306,9 +369,7 @@
     <entry file="file://$PROJECT_DIR$/account/confirm-mail.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/listMembers.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -365,20 +426,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/remote/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="41" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/support/install/install.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="115" column="445" selection-start-line="115" selection-start-column="445" selection-end-line="115" selection-end-column="445" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -402,13 +453,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/support/application/views/panel_account_settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/support/application/controllers/Account.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -419,13 +464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -454,17 +492,52 @@
         <state relative-caret-position="-3522" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/support/application/controllers/Login.php">
+    <entry file="file://$PROJECT_DIR$/template/Left_Sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="86" column="21" lean-forward="true" selection-start-line="86" selection-start-column="21" selection-end-line="86" selection-end-column="21" />
+        <state relative-caret-position="228">
+          <caret line="21" column="46" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/Left_Sidebar.php">
+    <entry file="file://$PROJECT_DIR$/ActiveMembers.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        <state relative-caret-position="258">
+          <caret line="49" column="63" selection-start-line="49" selection-start-column="56" selection-end-line="49" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SuspendedMembers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="49" column="63" selection-start-line="49" selection-start-column="63" selection-end-line="49" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TerminatedMembers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="49" column="63" selection-start-line="49" selection-start-column="63" selection-end-line="49" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TemporaryMembers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="49" column="63" selection-start-line="49" selection-start-column="63" selection-end-line="49" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/support/application/controllers/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="78" column="17" selection-start-line="78" selection-start-column="17" selection-end-line="78" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/remote/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="75" selection-start-line="10" selection-start-column="75" selection-end-line="10" selection-end-column="75" />
         </state>
       </provider>
     </entry>

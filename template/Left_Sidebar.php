@@ -16,10 +16,10 @@
                     <a href="javascript: void(0);" aria-expanded="true"><i class="fas fa-users"></i>
                         <span> Members </span> <span class="menu-arrow"></span></a>
                     <ul class="nav-second-level nav" aria-expanded="true">
-                        <li><a href="admin-grid.html">Active Members</a></li>
-                        <li><a href="admin-sweet-alert.html">Suspended Members</a></li>
-                        <li><a href="admin-tiles.html">Terminated Members</a></li>
-                        <li><a href="admin-nestable.html">Temporary Member</a></li>
+                        <li><a href="ActiveMembers.php">Active Members</a></li>
+                        <li><a href="SuspendedMembers.php">Suspended Members</a></li>
+                        <li><a href="TerminatedMembers.php">Terminated Members</a></li>
+                        <li><a href="TemporaryMembers.php">Temporary Member</a></li>
                     </ul>
                 </li>
                 <li>

@@ -8,7 +8,7 @@
 
 class database
 {
-    private $servername = "localhost";
+    private $servername = "ec2-3-17-162-211.us-east-2.compute.amazonaws.com";
     private $username = "SRTS_Remote";
     private $password = "f5AiME9KKjb10ggD";
     private $dbname = "SRTS";
