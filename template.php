@@ -64,11 +64,14 @@
 							$dbUser = 'eugen_test';
 							$dbPass = 'test123';
 							$dbData = 'SRTS';
-							$db = new PDO('mysql:host='.$dbhost.';dbname='.$dbData.';charset=utf8mb4',
-								$dbUser, $dbPass);
-							foreach($db->query('SELECT * FROM Scans') as $row){
-								echo $row['id'];
-							}
+                        $conn = new mysqli($dbhost, $dbUser, $dbPass, $dbData);
+                        if ($conn->connect_error) {
+                            die("Connection failed: " . $conn->connect_error);
+                        }
+                        $result = $conn->query("SELECT * FROM Scans");
+                        foreach($result as $row){
+                            echo $row['id'];
+                        }
 						?>
 						</body>
                     </div> <!-- container -->
