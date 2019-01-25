@@ -59,7 +59,18 @@
                         </div>
                         <!-- end row -->
                         <h1>hello test</h1>
-
+						<?php
+							$dbhost = 'admin.scaninsystem.com'; //'ec2-3-17-162-211.us-east-2.compute.amazonaws.com';
+							$dbUser = 'eugen_test';
+							$dbPass = 'test123';
+							$dbData = 'SRTS';
+							$db = new PDO('mysql:host='.$dbhost.';dbname='.$dbData.';charset=utf8mb4',
+								$dbUser, $dbPass);
+							foreach($db->query('SELECT * FROM Scans') as $row){
+								echo $row['id'];
+							}
+						?>
+						</body>
                     </div> <!-- container -->
 
                 </div> <!-- content -->
