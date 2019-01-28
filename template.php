@@ -70,7 +70,8 @@
                         }
                         $result = $conn->query("SELECT * FROM Scans");
                         foreach($result as $row){
-                            echo $row['id'];
+                            echo $row['EID'];
+							echo "<br>";
                         }
 						?>
 						</body>
