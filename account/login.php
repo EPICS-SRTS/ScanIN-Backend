@@ -1,3 +1,4 @@
+<?php include "../template/variables.php"; ?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -41,7 +42,7 @@
                                     <div class="account-logo-box">
                                         <h2 class="text-uppercase text-center">
                                             <a href="../index.html" class="text-success">
-                                                <span><img src="../assets/images/ScanIN_Logo_Dark.png" alt="" height="60"></span>
+                                                <span><img src="../<?php echo $logoDarkPATH; ?>" alt="" height="60"></span>
                                             </a>
                                         </h2>
                                         <h5 class="text-uppercase font-bold m-b-5 m-t-50">Sign In</h5>
