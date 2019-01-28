@@ -8,5 +8,5 @@
 
 $Brand = "ScanIN";
 $copyright = "2019 © ScanIN. - scaninsystem.com";
-$logoPATH = "assets/images/ScanIN_Logo.png";
-$logoDarkPATH = "assets/images/ScanIN_Logo_Dark.png";
+$logoPATH = "assets/images/eug_logo_draft.png"; //"assets/images/ScanIN_Logo.png";
+$logoDarkPATH = "assets/images/eug_logo_draft_dark.png"; //"assets/images/ScanIN_Logo_Dark.png";
