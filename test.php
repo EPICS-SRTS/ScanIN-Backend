@@ -8,7 +8,5 @@
 
 echo 1;
 
-if(phpversion() == "7.0"){
     fwrite(STDERR, "Failed to connect to database\n");
     exit(1); // A response code other than 0 is a failure
-}
