@@ -6,7 +6,6 @@
  * Time: 4:56 PM
  */
 
-echo 1;
+echo "Failed to connect to database";
 
-    fwrite(STDERR, "Failed to connect to database\n");
-    exit(1); // A response code other than 0 is a failure
+    exit(0); // A response code other than 0 is a failure
