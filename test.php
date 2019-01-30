@@ -8,6 +8,6 @@
 
 
 if(true){
-echo"Failed to connect to database";
-exit(1); // A response code other than 0 is a failure
+    fwrite(STDERR, "\n\n\nFailed to connect to database\n\n");
+    exit(1); // A response code other than 0 is a failure
 }
