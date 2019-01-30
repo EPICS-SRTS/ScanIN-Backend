@@ -8,6 +8,6 @@
 
 
 if(true){
-    fwrite(STDERR, "\n\n\nFailed to connect to database\n\n");
-    exit(1); // A response code other than 0 is a failure
+    fwrite(STDERR, "\n\n\nSuccessfully connected to the database\n\n");
+    exit(0); // A response code other than 0 is a failure
 }
