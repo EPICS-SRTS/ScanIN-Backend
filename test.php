@@ -7,3 +7,5 @@
  */
 
 echo 1;
+
+exit("Failed to connect to Database");
