@@ -5,8 +5,7 @@
     </g>
     <circle fill="#C62828" cx="24" cy="24" r="20"/>
     <circle fill="#eee" cx="24" cy="24" r="16"/>
-    <rect x="19" y="22.1" transform="matrix(-.707 -.707 .707 -.707 12.904 62.537)" fill="#E53935" width=".8"
-          height="13"/>
+    <rect x="19" y="22.1" transform="matrix(-.707 -.707 .707 -.707 12.904 62.537)" fill="#E53935" width=".8" height="13"/>
     <rect x="23" y="11" width="2" height="13"/>
     <rect x="26.1" y="22.7" transform="matrix(-.707 .707 -.707 -.707 65.787 27.25)" width="2.3" height="9.2"/>
     <circle cx="24" cy="24" r="2"/>
