@@ -1,10 +1,10 @@
-$(document).ready(function () {
-
+$(document).ready(function() {
+    
     //Example 1
     $('#filer_input').filer({
-        showThumbs: true
+		showThumbs: true
     });
-
+    
     //Example 2
     $("#filer_input2").filer({
         limit: null,
@@ -79,18 +79,17 @@ $(document).ready(function () {
             data: null,
             type: 'POST',
             enctype: 'multipart/form-data',
-            beforeSend: function () {
-            },
-            success: function (data, el) {
+            beforeSend: function(){},
+            success: function(data, el){
                 var parent = el.find(".jFiler-jProgressBar").parent();
-                el.find(".jFiler-jProgressBar").fadeOut("slow", function () {
-                    $("<div class=\"jFiler-item-others text-success\"><i class=\"icon-jfi-check-circle\"></i> Success</div>").hide().appendTo(parent).fadeIn("slow");
+                el.find(".jFiler-jProgressBar").fadeOut("slow", function(){
+                    $("<div class=\"jFiler-item-others text-success\"><i class=\"icon-jfi-check-circle\"></i> Success</div>").hide().appendTo(parent).fadeIn("slow");    
                 });
             },
-            error: function (el) {
+            error: function(el){
                 var parent = el.find(".jFiler-jProgressBar").parent();
-                el.find(".jFiler-jProgressBar").fadeOut("slow", function () {
-                    $("<div class=\"jFiler-item-others text-error\"><i class=\"icon-jfi-minus-circle\"></i> Error</div>").hide().appendTo(parent).fadeIn("slow");
+                el.find(".jFiler-jProgressBar").fadeOut("slow", function(){
+                    $("<div class=\"jFiler-item-others text-error\"><i class=\"icon-jfi-minus-circle\"></i> Error</div>").hide().appendTo(parent).fadeIn("slow");    
                 });
             },
             statusCode: null,
@@ -107,7 +106,7 @@ $(document).ready(function () {
         beforeSelect: null,
         onSelect: null,
         afterShow: null,
-        onRemove: function (itemEl, file, id, listEl, boxEl, newInputEl, inputEl) {
+        onRemove: function(itemEl, file, id, listEl, boxEl, newInputEl, inputEl){
             var file = file.name;
             $.post('./php/remove_file.php', {file: file});
         },
@@ -127,5 +126,5 @@ $(document).ready(function () {
             }
         }
     });
-
+    
 });

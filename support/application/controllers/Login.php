@@ -56,7 +56,7 @@ class Login extends CI_Controller
             $user = $this->input->get('user');
         }
         if ($this->input->get('pass') != NULL) {
-            $pass = $this->input->get('pass');
+            $pass = md5($this->input->get('pass'));
             $redir = 1;
         }
 

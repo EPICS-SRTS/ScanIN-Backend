@@ -6,16 +6,16 @@ var demo = lib + '/demo';
 var test = lib + '/test';
 var config = lib + '/config';
 
-var cleanDirs = [lib];
+var cleanDirs = [ lib ];
 
 var dependencies = [
-    {
-        name: 'mcagar',
-        repository: 'buildrepo2',
-        source: 'mcagar.zip',
-        targets: [
-            {name: 'module/*.js', path: test},
-            {name: 'depend/*.js', path: test}
-        ]
-    }
+  {
+    name: 'mcagar',
+    repository: 'buildrepo2',
+    source: 'mcagar.zip',
+    targets: [
+      { name: 'module/*.js', path: test },
+      { name: 'depend/*.js', path: test }
+    ]
+  }
 ];

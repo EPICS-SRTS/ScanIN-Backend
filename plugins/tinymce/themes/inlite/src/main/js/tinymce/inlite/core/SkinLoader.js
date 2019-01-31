@@ -9,37 +9,37 @@
  */
 
 define('tinymce/inlite/core/SkinLoader', [
-    'global!tinymce.EditorManager',
-    'global!tinymce.DOM'
+	'global!tinymce.EditorManager',
+	'global!tinymce.DOM'
 ], function (EditorManager, DOM) {
-    var fireSkinLoaded = function (editor, callback) {
-        var done = function () {
-            editor.fire('SkinLoaded');
-            callback();
-        };
+	var fireSkinLoaded = function (editor, callback) {
+		var done = function () {
+			editor.fire('SkinLoaded');
+			callback();
+		};
 
-        if (editor.initialized) {
-            done();
-        } else {
-            editor.on('init', done);
-        }
-    };
+		if (editor.initialized) {
+			done();
+		} else {
+			editor.on('init', done);
+		}
+	};
 
-    var load = function (editor, skin, callback) {
-        var baseUrl = EditorManager.baseURL;
-        var skinUrl = baseUrl + '/skins/' + skin;
+	var load = function (editor, skin, callback) {
+		var baseUrl = EditorManager.baseURL;
+		var skinUrl = baseUrl + '/skins/' + skin;
 
-        var done = function () {
-            fireSkinLoaded(editor, callback);
-        };
+		var done = function () {
+			fireSkinLoaded(editor, callback);
+		};
 
-        DOM.styleSheetLoader.load(skinUrl + '/skin.min.css', done);
-        editor.contentCSS.push(skinUrl + '/content.inline.min.css');
-    };
+		DOM.styleSheetLoader.load(skinUrl + '/skin.min.css', done);
+		editor.contentCSS.push(skinUrl + '/content.inline.min.css');
+	};
 
-    return {
-        load: load
-    };
+	return {
+		load: load
+	};
 });
 
 

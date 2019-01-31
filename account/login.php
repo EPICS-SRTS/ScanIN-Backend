@@ -9,19 +9,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 
     <!-- App favicon -->
-    <link rel="shortcut icon" href="../assets/images/favicon.ico">
+    <link rel="shortcut icon" href="<?php echo $URL_PATH; ?>/assets/images/favicon.ico">
 
     <!-- App css -->
-    <link href="../plugins/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet"/>
-    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="../assets/css/core.css" rel="stylesheet" type="text/css"/>
-    <link href="../assets/css/components.css" rel="stylesheet" type="text/css"/>
-    <link href="../assets/css/icons.css" rel="stylesheet" type="text/css"/>
-    <link href="../assets/css/pages.css" rel="stylesheet" type="text/css"/>
-    <link href="../assets/css/menu.css" rel="stylesheet" type="text/css"/>
-    <link href="../assets/css/responsive.css" rel="stylesheet" type="text/css"/>
+    <link href="<?php echo $URL_PATH; ?>/plugins/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet"/>
+    <link href="<?php echo $URL_PATH; ?>/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="<?php echo $URL_PATH; ?>/assets/css/core.css" rel="stylesheet" type="text/css"/>
+    <link href="<?php echo $URL_PATH; ?>/assets/css/components.css" rel="stylesheet" type="text/css"/>
+    <link href="<?php echo $URL_PATH; ?>/assets/css/icons.css" rel="stylesheet" type="text/css"/>
+    <link href="<?php echo $URL_PATH; ?>/assets/css/pages.css" rel="stylesheet" type="text/css"/>
+    <link href="<?php echo $URL_PATH; ?>/assets/css/menu.css" rel="stylesheet" type="text/css"/>
+    <link href="<?php echo $URL_PATH; ?>/assets/css/responsive.css" rel="stylesheet" type="text/css"/>
 
-    <script src="../assets/js/modernizr.min.js"></script>
+    <script src="<?php echo $URL_PATH; ?>/assets/js/modernizr.min.js"></script>
 
 </head>
 
@@ -40,8 +40,8 @@
                         <div class="account-box">
                             <div class="account-logo-box">
                                 <h2 class="text-uppercase text-center">
-                                    <a href="../index.html" class="text-success">
-                                        <span><img src="../assets/images/ScanIN_Logo_Dark.png" alt=""
+                                    <a href="<?php echo $URL_PATH; ?>/index.html" class="text-success">
+                                        <span><img src="<?php echo $URL_PATH; ?>/assets/images/eug_logo_draft_dark.png.png" alt=""
                                                    height="60"></span>
                                     </a>
                                 </h2>
@@ -49,7 +49,7 @@
                                 <p class="m-b-0">Login to your ScanIN account</p>
                             </div>
                             <div class="account-content">
-                                <form class="form-horizontal" action="../backend/loginValidator.php" method="post">
+                                <form class="form-horizontal" action="<?php echo $URL_PATH; ?>/backend/loginValidator.php" method="post">
 
                                     <div class="form-group m-b-20">
                                         <div class="col-xs-12">
@@ -121,16 +121,16 @@
 </script>
 
 <!-- jQuery  -->
-<script src="../assets/js/jquery.min.js"></script>
-<script src="../assets/js/bootstrap.min.js"></script>
-<script src="../assets/js/metisMenu.min.js"></script>
-<script src="../assets/js/waves.js"></script>
-<script src="../assets/js/jquery.slimscroll.js"></script>
-<script src="../plugins/bootstrap-select/js/bootstrap-select.min.js" type="text/javascript"></script>
+<script src="<?php echo $URL_PATH; ?>/assets/js/jquery.min.js"></script>
+<script src="<?php echo $URL_PATH; ?>/assets/js/bootstrap.min.js"></script>
+<script src="<?php echo $URL_PATH; ?>/assets/js/metisMenu.min.js"></script>
+<script src="<?php echo $URL_PATH; ?>/assets/js/waves.js"></script>
+<script src="<?php echo $URL_PATH; ?>/assets/js/jquery.slimscroll.js"></script>
+<script src="<?php echo $URL_PATH; ?>/plugins/bootstrap-select/js/bootstrap-select.min.js" type="text/javascript"></script>
 
 <!-- App js -->
-<script src="../assets/js/jquery.core.js"></script>
-<script src="../assets/js/jquery.app.js"></script>
+<script src="<?php echo $URL_PATH; ?>/assets/js/jquery.core.js"></script>
+<script src="<?php echo $URL_PATH; ?>/assets/js/jquery.app.js"></script>
 
 </body>
 </html>
