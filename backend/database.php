@@ -12,9 +12,9 @@ namespace SRTS\Admin;
 class database
 {
     private $servername = "localhost";
-    private $username = "username";
-    private $password = "password";
-    private $dbname = "myDB";
+    private $username = "scanin_remote";
+    private $password = "A=;fWPa~P3ps";
+    private $dbname = "scanin_SRTS";
     public $conn;
 
     function connect()

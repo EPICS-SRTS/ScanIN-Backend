@@ -8,11 +8,11 @@
 
 class database
 {
-    private $servername = "ec2-3-17-162-211.us-east-2.compute.amazonaws.com";
-    private $username = "SRTS_Remote";
-    private $password = "f5AiME9KKjb10ggD";
-    private $dbname = "SRTS";
-    private $conn;
+    private $servername = "localhost";
+    private $username = "scanin_remote";
+    private $password = "A=;fWPa~P3ps";
+    private $dbname = "scanin_SRTS";
+    public $conn;
 
     function connect()
     {
