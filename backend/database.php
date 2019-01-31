@@ -11,11 +11,11 @@ namespace SRTS\Admin;
 
 class database
 {
-    public $conn;
-    private $servername = "admin.scaninsystem.com";
-    private $username = "eugen_test";
-    private $password = "test123";
+    private $servername = "localhost";
+    private $username = "SRTS_Remote";
+    private $password = "f5AiME9KKjb10ggD";
     private $dbname = "SRTS";
+    private $conn;
 
     function connect()
     {
