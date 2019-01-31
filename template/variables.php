@@ -16,3 +16,4 @@ $First_Name = $_SESSION["First_Name"];
 $Last_Name = $_SESSION["Last_Name"];
 $Username = $_SESSION["Username"];
 $Logged_IN = $_SESSION["Logged_IN"];
+$Logged_OUT = 1;
