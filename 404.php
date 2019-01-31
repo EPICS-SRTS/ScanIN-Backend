@@ -29,7 +29,7 @@
                             <div class="account-logo-box">
                                 <h2 class="text-uppercase text-center">
                                     <a href="index.html" class="text-success">
-                                        <span><img src="<?php echo $URL_PATH; ?>/assets/images/ScanIN_Logo_Dark.png"
+                                        <span><img src="<?php echo $URL_PATH; ?><?php echo $logoDarkPATH;?> <!--/assets/images/ScanIN_Logo_Dark.png"-->
                                                    alt="" height="60"></span>
                                     </a>
                                 </h2>
@@ -38,11 +38,8 @@
                             <div class="account-content">
                                 <h1 class="text-error">404</h1>
                                 <h2 class="text-uppercase text-danger m-t-30">Page Not Found</h2>
-                                <p class="text-muted m-t-30">It's looking like you may have taken a wrong turn. Don't
-                                    worry... it
-                                    happens to the best of us. You might want to check your internet connection. Here's
-                                    a
-                                    little tip that might help you get back on track.</p>
+                                <p class="text-muted m-t-30">Sorry, the requested page could not be found. 
+									Please use the button below to return to the homepage.</p>
 
                                 <a class="btn btn-md btn-block btn-primary waves-effect waves-light m-t-20"
                                    href="<?php echo $URL_PATH; ?>/index.php"> Return Home</a>
