@@ -6,7 +6,7 @@
 
 
 
-document.addEventListener("DOMContentLoaded", function (event) {
+document.addEventListener("DOMContentLoaded", function(event) {
 
     var g1, g2, g3, g4, g5, g6, g7, g8;
 
@@ -99,28 +99,28 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
     var g8 = new JustGage({
         id: "g8",
-        value: 72.15,
+        value : 72.15,
         min: 0,
         max: 100,
         decimals: 2,
         gaugeWidthScale: 0.6,
         customSectors: [{
-            color: "#00ff00",
-            lo: 0,
-            hi: 50
-        }, {
-            color: "#ff0000",
-            lo: 50,
-            hi: 100
+            color : "#00ff00",
+            lo : 0,
+            hi : 50
+        },{
+            color : "#ff0000",
+            lo : 50,
+            hi : 100
         }],
         counter: true
     });
 
-    document.getElementById('g8_refresh').addEventListener('click', function () {
+    document.getElementById('g8_refresh').addEventListener('click', function() {
         g8.refresh(getRandomInt(0, 100));
     });
 
-    setInterval(function () {
+    setInterval(function() {
         g1.refresh(getRandomInt(0, 100));
         g2.refresh(getRandomInt(0, 100));
         g3.refresh(getRandomInt(0, 100));

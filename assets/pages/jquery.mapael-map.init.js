@@ -5,29 +5,29 @@
  */
 
 
-$(function () {
+$(function(){
 
-    //USA Map
+	//USA Map
 
-    $mapusa = $(".map-usa");
+	$mapusa = $(".map-usa");
 
-    $mapusa.mapael({
-        map: {
-            name: "usa_states",
-            defaultArea: {
+ 	$mapusa.mapael({
+		map : {
+			name : "usa_states",
+             defaultArea: {
                 attrs: {
                     fill: "#36404e",
                     stroke: "#aaa"
                 },
-                attrsHover: {
+                 attrsHover: {
                     fill: "#4489e4"
                 }
             },
-            zoom: {
-                enabled: true,
-                maxLevel: 10
-            }
-        },
+			zoom: {
+				enabled: true,
+				maxLevel : 10
+			}
+		},
         legend: {
             plot: {
                 title: "American cities",
@@ -55,8 +55,8 @@ $(function () {
                 }]
             }
         },
-        plots: {
-            'ny': {
+		plots: {
+			'ny': {
                 latitude: 40.717079,
                 longitude: -74.00116,
                 tooltip: {content: "New York"},
@@ -110,20 +110,20 @@ $(function () {
                 tooltip: {content: "Seattle"},
                 value: "Value 1"
             }
-        }
-    });
+		}
+	});
 
-    // Zoom on mousewheel with mousewheel jQuery plugin
-    $mapusa.on("mousewheel", function (e) {
-        if (e.deltaY > 0) {
-            $mapusa.trigger("zoom", $mapusa.data("zoomLevel") + 1);
-            console.log("zoom");
-        } else {
-            $mapusa.trigger("zoom", $mapusa.data("zoomLevel") - 1);
-        }
+	// Zoom on mousewheel with mousewheel jQuery plugin
+	$mapusa.on("mousewheel", function(e) {
+		if (e.deltaY > 0) {
+			$mapusa.trigger("zoom", $mapusa.data("zoomLevel") + 1);
+			console.log("zoom");
+		} else {
+			$mapusa.trigger("zoom", $mapusa.data("zoomLevel") - 1);
+		}
 
-        return false;
-    });
+		return false;
+	});
 
 
     $(".mapcontainer").mapael({
