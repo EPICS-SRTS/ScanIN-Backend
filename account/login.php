@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php include "../template/variables.php"; ?><!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8"/>
