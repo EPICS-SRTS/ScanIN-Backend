@@ -12,7 +12,7 @@ class database
     private $username = "scanin_remote";
     private $password = "r1s=@?s~e.sy";
     private $dbname = "scanin_SRTS";
-    private $conn;
+    public $conn;
 
     function connect()
     {
