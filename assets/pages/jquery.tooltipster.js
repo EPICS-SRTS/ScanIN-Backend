@@ -1,8 +1,8 @@
 /**
-* Theme: Adminox Admin Template
-* Author: Coderthemes
-* Tooltips
-*/
+ * Theme: Adminox Admin Template
+ * Author: Coderthemes
+ * Tooltips
+ */
 
 (function ($) {
 
@@ -42,27 +42,27 @@
         content: 'North',
         multiple: true,
         position: 'top'
-      });
+    });
 
-      $('#tooltip-multiple').tooltipster({
+    $('#tooltip-multiple').tooltipster({
         content: 'East',
         multiple: true,
         position: 'right'
-      });
+    });
 
-      $('#tooltip-multiple').tooltipster({
+    $('#tooltip-multiple').tooltipster({
         animation: 'grow',
         content: 'South',
         delay: 200,
         multiple: true,
         position: 'bottom'
-      });
+    });
 
-      $('#tooltip-multiple').tooltipster({
+    $('#tooltip-multiple').tooltipster({
         animation: 'fall',
         content: 'West',
         multiple: true,
         position: 'left'
-      });
+    });
 
 })(jQuery);

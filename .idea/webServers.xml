@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4ea2193a-7012-45bb-8405-3b0e93ad10d1" name="eCorp" url="http://admin.scaninsystem.com">
+        <fileTransfer host="admin.scaninsystem.com" port="22" privateKey="C:\Users\khali\Desktop\EPICS_SRTS.pem" rootFolder="/var/www/html" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

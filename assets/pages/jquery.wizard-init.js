@@ -1,10 +1,10 @@
 /**
-* Theme: Adminox Admin Template
-* Author: Coderthemes
-* Form wizard page
-*/
+ * Theme: Adminox Admin Template
+ * Author: Coderthemes
+ * Form wizard page
+ */
 
-$(function() {
+$(function () {
     // Override defaults
     $.fn.stepy.defaults.legend = false;
     $.fn.stepy.defaults.transition = 'fade';
@@ -22,13 +22,13 @@ $(function() {
 
     // Stepy callbacks
     $("#wizard-callbacks").stepy({
-        next: function(index) {
+        next: function (index) {
             alert('Going to step: ' + index);
         },
-        back: function(index) {
+        back: function (index) {
             alert('Returning to step: ' + index);
         },
-        finish: function() {
+        finish: function () {
             alert('Submit canceled.');
             return false;
         }

@@ -66,9 +66,10 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
     CanvasAxisLabel.prototype = new AxisLabel();
     CanvasAxisLabel.prototype.constructor = CanvasAxisLabel;
+
     function CanvasAxisLabel(axisName, position, padding, plot, opts) {
         AxisLabel.prototype.constructor.call(this, axisName, position, padding,
-                                             plot, opts);
+            plot, opts);
     }
 
     CanvasAxisLabel.prototype.calculateSize = function () {
@@ -120,14 +121,15 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
     HtmlAxisLabel.prototype = new AxisLabel();
     HtmlAxisLabel.prototype.constructor = HtmlAxisLabel;
+
     function HtmlAxisLabel(axisName, position, padding, plot, opts) {
         AxisLabel.prototype.constructor.call(this, axisName, position,
-                                             padding, plot, opts);
+            padding, plot, opts);
     }
 
     HtmlAxisLabel.prototype.calculateSize = function () {
         var elem = $('<div class="axisLabels" style="position:absolute;">' +
-                     this.opts.axisLabel + '</div>');
+            this.opts.axisLabel + '</div>');
         this.plot.getPlaceholder().append(elem);
         // store height and width of label itself, for use in draw()
         this.labelWidth = elem.outerWidth(true);
@@ -145,8 +147,8 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
     HtmlAxisLabel.prototype.draw = function (box) {
         this.plot.getPlaceholder().find('#' + this.axisName + 'Label').remove();
         var elem = $('<div id="' + this.axisName +
-                     'Label" " class="axisLabels" style="position:absolute;">'
-                     + this.opts.axisLabel + '</div>');
+            'Label" " class="axisLabels" style="position:absolute;">'
+            + this.opts.axisLabel + '</div>');
         this.plot.getPlaceholder().append(elem);
         if (this.position == 'top') {
             elem.css('left', box.left + box.width / 2 - this.labelWidth / 2 + 'px');
@@ -166,9 +168,10 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
     CssTransformAxisLabel.prototype = new HtmlAxisLabel();
     CssTransformAxisLabel.prototype.constructor = CssTransformAxisLabel;
+
     function CssTransformAxisLabel(axisName, position, padding, plot, opts) {
         HtmlAxisLabel.prototype.constructor.call(this, axisName, position,
-                                                 padding, plot, opts);
+            padding, plot, opts);
     }
 
     CssTransformAxisLabel.prototype.calculateSize = function () {
@@ -214,7 +217,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
     };
 
     CssTransformAxisLabel.prototype.calculateOffsets = function (box) {
-        var offsets = { x: 0, y: 0, degrees: 0 };
+        var offsets = {x: 0, y: 0, degrees: 0};
         if (this.position == 'bottom') {
             offsets.x = box.left + box.width / 2 - this.labelWidth / 2;
             offsets.y = box.top + box.height - this.labelHeight;
@@ -228,7 +231,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
         } else if (this.position == 'right') {
             offsets.degrees = 90;
             offsets.x = box.left + box.width - this.labelWidth / 2
-                        - this.labelHeight / 2;
+                - this.labelHeight / 2;
             offsets.y = box.height / 2 + box.top;
         }
         return offsets;
@@ -238,19 +241,20 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
         this.plot.getPlaceholder().find("." + this.axisName + "Label").remove();
         var offsets = this.calculateOffsets(box);
         var elem = $('<div class="axisLabels ' + this.axisName +
-                     'Label" style="position:absolute; ' +
-                     this.transforms(offsets.degrees, offsets.x, offsets.y) +
-                     '">' + this.opts.axisLabel + '</div>');
+            'Label" style="position:absolute; ' +
+            this.transforms(offsets.degrees, offsets.x, offsets.y) +
+            '">' + this.opts.axisLabel + '</div>');
         this.plot.getPlaceholder().append(elem);
     };
 
 
     IeTransformAxisLabel.prototype = new CssTransformAxisLabel();
     IeTransformAxisLabel.prototype.constructor = IeTransformAxisLabel;
+
     function IeTransformAxisLabel(axisName, position, padding, plot, opts) {
         CssTransformAxisLabel.prototype.constructor.call(this, axisName,
-                                                         position, padding,
-                                                         plot, opts);
+            position, padding,
+            plot, opts);
         this.requiresResize = false;
     }
 
@@ -278,7 +282,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
     IeTransformAxisLabel.prototype.calculateOffsets = function (box) {
         var offsets = CssTransformAxisLabel.prototype.calculateOffsets.call(
-                          this, box);
+            this, box);
         // adjust some values to take into account differences between
         // CSS and IE rotations.
         if (this.position == 'top') {
@@ -322,7 +326,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
         var secondPass = false;
 
         var axisLabels = {};
-        var axisOffsetCounts = { left: 0, right: 0, top: 0, bottom: 0 };
+        var axisOffsetCounts = {left: 0, right: 0, top: 0, bottom: 0};
 
         var defaultPadding = 2;  // padding between axis and tick labels
         plot.hooks.draw.push(function (plot, ctx) {
@@ -363,11 +367,11 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
                     }
 
                     var padding = opts.axisLabelPadding === undefined ?
-                                  defaultPadding : opts.axisLabelPadding;
+                        defaultPadding : opts.axisLabelPadding;
 
                     axisLabels[axisName] = new renderer(axisName,
-                                                        axis.position, padding,
-                                                        plot, opts);
+                        axis.position, padding,
+                        plot, opts);
 
                     // flot interprets axis.labelHeight and .labelWidth as
                     // the height and width of the tick labels. We increase

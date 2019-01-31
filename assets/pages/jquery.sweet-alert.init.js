@@ -1,9 +1,8 @@
-
 /**
-* Theme: Adminox Template
-* Author: Coderthemes
-* SweetAlert
-*/
+ * Theme: Adminox Template
+ * Author: Coderthemes
+ * SweetAlert
+ */
 
 !function ($) {
     "use strict";
@@ -125,8 +124,8 @@
                 title: '<i>HTML</i> <u>example</u>',
                 type: 'info',
                 html: 'You can use <b>bold text</b>, ' +
-                '<a href="//coderthemes.com/">links</a> ' +
-                'and other HTML tags',
+                    '<a href="//coderthemes.com/">links</a> ' +
+                    'and other HTML tags',
                 showCloseButton: true,
                 showCancelButton: true,
                 confirmButtonClass: 'btn btn-success',
@@ -185,7 +184,7 @@
                 showCancelButton: true,
                 animation: false,
                 progressSteps: ['1', '2', '3']
-            })
+            });
 
             var steps = [
                 {
@@ -194,15 +193,15 @@
                 },
                 'Question 2',
                 'Question 3'
-            ]
+            ];
 
             swal.queue(steps).then(function (result) {
-                swal.resetDefaults()
+                swal.resetDefaults();
                 swal({
                     title: 'All done!',
                     html: 'Your answers: <pre>' +
-                    JSON.stringify(result) +
-                    '</pre>',
+                        JSON.stringify(result) +
+                        '</pre>',
                     confirmButtonText: 'Lovely!',
                     showCancelButton: false
                 })
@@ -217,13 +216,13 @@
                 title: 'Your public IP',
                 confirmButtonText: 'Show my public IP',
                 text: 'Your public IP will be received ' +
-                'via AJAX request',
+                    'via AJAX request',
                 showLoaderOnConfirm: true,
                 preConfirm: function () {
                     return new Promise(function (resolve) {
                         $.get('https://api.ipify.org?format=json')
                             .done(function (data) {
-                                swal.insertQueueStep(data.ip)
+                                swal.insertQueueStep(data.ip);
                                 resolve()
                             })
                     })

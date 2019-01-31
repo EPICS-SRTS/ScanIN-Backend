@@ -28,14 +28,18 @@ if ($result->num_rows > 0) {
 }
 
 
-if (assword_verify($password, $hash)) {
+if (password_verify($password, $hash)) {
     $sql = "SELECT * FROM `ScanIN_Users` WHERE `Email` = '" . $email . "'";
     $result = $database->conn->query($sql);
     while ($row = $result->fetch_assoc()) {
+        $_SESSION["Email"] = $email;
         $_SESSION["First_Name"] = $row["First_Name"];
         $_SESSION["Last_Name"] = $row["Last_Name"];
-        $_SESSION["Role"] = $row["Role"];
-        $_SESSION["Clearance_Level"] = $row["Clearance_Level"];
+        $_SESSION["Username"] = $row["UserName"];
+        $_SESSION["Logged_IN"] = 2;
+        $_SESSION["password"] = $password;
     }
+
+    header('Location: ../home.php');
 }
 

@@ -76,5 +76,5 @@
 
     init();
 
-})(jQuery)
+})(jQuery);
 

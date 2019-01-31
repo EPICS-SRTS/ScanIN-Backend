@@ -2,9 +2,9 @@
  * Theme: Adminox Admin Template
  * Author: Coderthemes
  * Component: Datatable
- * 
+ *
  */
-var handleDataTableButtons = function() {
+var handleDataTableButtons = function () {
         "use strict";
         0 !== $("#datatable-buttons").length && $("#datatable-buttons").DataTable({
             dom: "Bfrtip",
@@ -27,10 +27,10 @@ var handleDataTableButtons = function() {
             responsive: !0
         })
     },
-    TableManageButtons = function() {
+    TableManageButtons = function () {
         "use strict";
         return {
-            init: function() {
+            init: function () {
                 handleDataTableButtons()
             }
         }

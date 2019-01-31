@@ -1,12 +1,12 @@
 /**
-* Theme: Adminox Admin Template
-* Author: Coderthemes
-* Component: Companies
-* 
-*/
-$( document ).ready(function() {
-    
-    var DrawSparkline = function() {
+ * Theme: Adminox Admin Template
+ * Author: Coderthemes
+ * Component: Companies
+ *
+ */
+$(document).ready(function () {
+
+    var DrawSparkline = function () {
         $('#company-1').sparkline([0, 23, 43, 35, 44, 45, 56, 37, 40], {
             type: 'line',
             width: $('#company-1').width(),
@@ -126,16 +126,16 @@ $( document ).ready(function() {
             spotColor: false,
             lineWidth: 2
         });
-    }
+    };
 
-    
+
     DrawSparkline();
-    
+
     var resizeChart;
 
-    $(window).resize(function(e) {
+    $(window).resize(function (e) {
         clearTimeout(resizeChart);
-        resizeChart = setTimeout(function() {
+        resizeChart = setTimeout(function () {
             DrawSparkline();
         }, 300);
     });

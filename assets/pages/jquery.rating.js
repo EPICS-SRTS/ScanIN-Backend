@@ -1,9 +1,8 @@
-
 /**
-* Theme: Adminox Admin Template
-* Author: Coderthemes
-* Ratings
-*/
+ * Theme: Adminox Admin Template
+ * Author: Coderthemes
+ * Ratings
+ */
 
 ;(function ($) {
     $(function () {

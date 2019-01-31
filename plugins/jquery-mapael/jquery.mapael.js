@@ -352,7 +352,7 @@
             var textPosition = {};
 
             // Assign value attribute to element
-            if (elemOptions.value !== undefined){
+            if (elemOptions.value !== undefined) {
                 elem.value = elemOptions.value;
             }
 
@@ -440,12 +440,12 @@
             });
 
             // init zoom buttons
-            $.each(zoomOptions.buttons, function(type, opt) {
+            $.each(zoomOptions.buttons, function (type, opt) {
                 if (fnZoomButtons[type] === undefined) throw new Error("Unknown zoom button '" + type + "'");
                 // Create div with classes, contents and title (for tooltip)
                 var $button = $("<div>").addClass(opt.cssClass)
-                                    .html(opt.content)
-                                    .attr("title", opt.title);
+                    .html(opt.content)
+                    .attr("title", opt.title);
                 // Assign click event
                 $button.on("click." + pluginName, fnZoomButtons[type]);
                 // Append to map
@@ -588,7 +588,7 @@
          * @param pageY: mouse client coordinate on Y
          * @return map coordinate {x, y}
          */
-        mapPagePositionToXY: function(pageX, pageY) {
+        mapPagePositionToXY: function (pageX, pageY) {
             var self = this;
             var offset = self.$map.offset();
             var initFactor = (self.options.map.width) ? (self.mapConf.width / self.options.map.width) : (self.mapConf.width / self.$map.width());
@@ -645,7 +645,7 @@
                 // Make sure we stay in the boundaries
                 newLevel = Math.min(Math.max(newLevel, self.options.map.zoom.minLevel), self.options.map.zoom.maxLevel);
             }
-            
+
             zoomLevel = (1 + newLevel * self.options.map.zoom.step);
 
             if (zoomOptions.latitude !== undefined && zoomOptions.longitude !== undefined) {
@@ -727,7 +727,7 @@
          *      }
          *  }
          */
-        onShowElementsInRange: function(e, opt) {
+        onShowElementsInRange: function (e, opt) {
             var self = this;
 
             // set animDuration to default if not defined
@@ -766,7 +766,7 @@
          * @hiddenOpacity: the opacity when hidden
          * @animDuration: the animation duration
          */
-        showElemByRange: function(ranges, elems, hiddenOpacity, animDuration) {
+        showElemByRange: function (ranges, elems, hiddenOpacity, animDuration) {
             var self = this;
             // Hold the final opacity value for all elements consolidated after applying each ranges
             // This allow to set the opacity only once for each elements
@@ -819,7 +819,7 @@
          * @param opacity the opacity to apply
          * @param animDuration the animation duration to use
          */
-        setElementOpacity: function(elem, opacity, animDuration) {
+        setElementOpacity: function (elem, opacity, animDuration) {
             // Ensure no animation is running
             //elem.mapElem.stop();
             //if (elem.textElem) elem.textElem.stop();
@@ -852,7 +852,7 @@
                 if (elem.textElem) {
                     // Set attribute
                     elem.textElem.attr({"opacity": opacity});
-                // For null opacity, hide it
+                    // For null opacity, hide it
                     if (opacity === 0) elem.textElem.hide();
                 }
             }
@@ -876,7 +876,7 @@
         onUpdateEvent: function (e, opt) {
             var self = this;
             // Abort if opt is undefined
-            if (typeof opt !== "object")  return;
+            if (typeof opt !== "object") return;
 
             var i = 0;
             var animDuration = (opt.animDuration) ? opt.animDuration : 0;
@@ -1015,7 +1015,7 @@
             // Update plots attributes and tooltips
             $.each(self.plots, function (id) {
                 // Avoid updating unchanged elements
-                if ((typeof opt.mapOptions ==="object" &&
+                if ((typeof opt.mapOptions === "object" &&
                     (
                         (typeof opt.mapOptions.map === "object" && typeof opt.mapOptions.map.defaultPlot === "object")
                         || (typeof opt.mapOptions.plots === "object" && typeof opt.mapOptions.plots[id] === "object")
@@ -1042,7 +1042,7 @@
                         if (elemOptions.attrs.transform !== undefined) {
                             elemOptions.attrs.transform = self.plots[id].mapElem.baseTransform + elemOptions.attrs.transform;
                         }
-                    }else { // Default : circle
+                    } else { // Default : circle
                         elemOptions.attrs.r = elemOptions.size / 2;
                     }
 
@@ -1385,16 +1385,15 @@
             var cssClass = self.$tooltip.attr('class');
 
 
-
             var updateTooltipPosition = function (x, y) {
 
-            	var offsetLeft = 10;
-            	var offsetTop = 20;
+                var offsetLeft = 10;
+                var offsetTop = 20;
 
                 if (typeof elem.tooltip.offset === "object") {
                     if (typeof elem.tooltip.offset.left !== "undefined") {
                         offsetLeft = elem.tooltip.offset.left;
-                    }                    
+                    }
                     if (typeof elem.tooltip.offset.top !== "undefined") {
                         offsetTop = elem.tooltip.offset.top;
                     }
@@ -1506,7 +1505,7 @@
             }
 
             // Calculate attrs (and width, height and r (radius)) for legend elements, and yCenter for horizontal legends
-            
+
             for (i = 0, length = legendOptions.slices.length; i < length; ++i) {
                 var yCenterCurrent = 0;
 
@@ -1516,7 +1515,7 @@
                     legendOptions.slices[i].legendSpecificAttrs = {};
                 }
 
-                 $.extend(true, sliceOptions[i].attrs, legendOptions.slices[i].legendSpecificAttrs);
+                $.extend(true, sliceOptions[i].attrs, legendOptions.slices[i].legendSpecificAttrs);
 
                 if (legendType == "area") {
                     if (sliceOptions[i].attrs.width === undefined)
@@ -1538,7 +1537,6 @@
                         sliceOptions[i].attrs.r = sliceOptions[i].size / 2;
                 }
 
-                
 
                 // Compute yCenter for this legend slice
                 yCenterCurrent = legendOptions.marginBottomTitle;
@@ -1716,8 +1714,8 @@
 
                     if ((sliceOptions.sliceValue !== undefined && elemValue == sliceOptions.sliceValue)
                         || ((sliceOptions.sliceValue === undefined)
-                        && (sliceOptions.min === undefined || elemValue >= sliceOptions.min)
-                        && (sliceOptions.max === undefined || elemValue <= sliceOptions.max))
+                            && (sliceOptions.min === undefined || elemValue >= sliceOptions.min)
+                            && (sliceOptions.max === undefined || elemValue <= sliceOptions.max))
                     ) {
                         (function (id) {
                             if (hidden === '0') { // we want to hide this element
@@ -1821,8 +1819,8 @@
             };
             var outBehaviour = function () {
                 clearTimeout(mouseoverTimeout);
-                mouseoutTimeout = setTimeout(function(){
-                    self.elemOut(mapElem, textElem);                
+                mouseoutTimeout = setTimeout(function () {
+                    self.elemOut(mapElem, textElem);
                 }, 120);
             };
 
@@ -1967,8 +1965,8 @@
             for (var i = 0, length = legend.slices.length; i < length; ++i) {
                 if ((legend.slices[i].sliceValue !== undefined && value == legend.slices[i].sliceValue)
                     || ((legend.slices[i].sliceValue === undefined)
-                    && (legend.slices[i].min === undefined || value >= legend.slices[i].min)
-                    && (legend.slices[i].max === undefined || value <= legend.slices[i].max))
+                        && (legend.slices[i].min === undefined || value >= legend.slices[i].min)
+                        && (legend.slices[i].max === undefined || value <= legend.slices[i].max))
                 ) {
                     return legend.slices[i];
                 }
@@ -2033,7 +2031,7 @@
           * Wants to override this behavior? Use prototype overriding:
           *     $.mapael.prototype.isRaphaelBBoxBugPresent = function() {return false;};
           */
-        isRaphaelBBoxBugPresent: function(){
+        isRaphaelBBoxBugPresent: function () {
             var self = this;
             // Draw text, then get its boundaries
             var text_elem = self.paper.text(-50, -50, "TEST");

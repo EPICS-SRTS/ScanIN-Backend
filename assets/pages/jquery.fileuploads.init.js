@@ -1,14 +1,13 @@
-
 /**
-* Theme: Adminox Admin Template
-* Author: Coderthemes
+ * Theme: Adminox Admin Template
+ * Author: Coderthemes
  * Email: coderthemes@gmail.com
-* File Uploads
-*/
+ * File Uploads
+ */
 
-$(document).ready(function(){
+$(document).ready(function () {
 
-	'use-strict';
+    'use-strict';
 
     //Example 2
     $('#filer_input2').filer({
@@ -20,7 +19,7 @@ $(document).ready(function(){
         addMore: true
     });
 
-	//Example 1
+    //Example 1
     $("#filer_input1").filer({
         limit: null,
         maxSize: null,
@@ -94,16 +93,17 @@ $(document).ready(function(){
             data: null,
             type: 'POST',
             enctype: 'multipart/form-data',
-            beforeSend: function(){},
-            success: function(data, el){
+            beforeSend: function () {
+            },
+            success: function (data, el) {
                 var parent = el.find(".jFiler-jProgressBar").parent();
-                el.find(".jFiler-jProgressBar").fadeOut("slow", function(){
+                el.find(".jFiler-jProgressBar").fadeOut("slow", function () {
                     $("<div class=\"jFiler-item-others text-success\"><i class=\"icon-jfi-check-circle\"></i> Success</div>").hide().appendTo(parent).fadeIn("slow");
                 });
             },
-            error: function(el){
+            error: function (el) {
                 var parent = el.find(".jFiler-jProgressBar").parent();
-                el.find(".jFiler-jProgressBar").fadeOut("slow", function(){
+                el.find(".jFiler-jProgressBar").fadeOut("slow", function () {
                     $("<div class=\"jFiler-item-others text-error\"><i class=\"icon-jfi-minus-circle\"></i> Error</div>").hide().appendTo(parent).fadeIn("slow");
                 });
             },
@@ -111,20 +111,20 @@ $(document).ready(function(){
             onProgress: null,
             onComplete: null
         },
-		files: [
-			{
-				name: "1.jpg",
-				size: 145,
-				type: "image/jpg",
-				file: "assets/images/small/img-1.jpg"
-			},
-			{
-				name: "2.jpg",
-				size: 145,
-				type: "image/jpg",
-				file: "assets/images/small/img-2.jpg"
-			}
-		],
+        files: [
+            {
+                name: "1.jpg",
+                size: 145,
+                type: "image/jpg",
+                file: "assets/images/small/img-1.jpg"
+            },
+            {
+                name: "2.jpg",
+                size: 145,
+                type: "image/jpg",
+                file: "assets/images/small/img-2.jpg"
+            }
+        ],
         addMore: false,
         clipBoardPaste: true,
         excludeName: null,
@@ -134,7 +134,7 @@ $(document).ready(function(){
         beforeSelect: null,
         onSelect: null,
         afterShow: null,
-        onRemove: function(itemEl, file, id, listEl, boxEl, newInputEl, inputEl){
+        onRemove: function (itemEl, file, id, listEl, boxEl, newInputEl, inputEl) {
             var file = file.name;
             $.post('../plugins/jquery.filer/php/remove_file.php', {file: file});
         },

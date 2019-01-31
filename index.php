@@ -7,9 +7,9 @@
  */
 
 session_start();
-
-if ($_SESSION["active"]) {
-    header('Location: home.php');
+include "template/variables.php";
+if ($_SESSION["Logged_IN"]) {
+    header('Location: ' . $URL_PATH . '/home.php');
 } else {
-    header('Location: account/login.php');
+    header('Location: ' . $URL_PATH . '/account/login.php');
 }

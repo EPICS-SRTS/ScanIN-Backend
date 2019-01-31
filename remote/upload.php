@@ -16,7 +16,6 @@ $lat = $_GET["lat"];
 $long = $_GET["long"];
 
 
-
 $database->connect();
 $database->recordGPS($unit_ID, $lat, $long);
 $database->recordRead($EID);

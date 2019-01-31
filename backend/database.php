@@ -11,19 +11,39 @@ namespace SRTS\Admin;
 
 class database
 {
-    private $servername = "localhost";
-    private $username = "scanin_remote";
-    private $password = "A=;fWPa~P3ps";
-    private $dbname = "scanin_SRTS";
     public $conn;
+    private $servername = "admin.scaninsystem.com";
+    private $username = "eugen_test";
+    private $password = "test123";
+    private $dbname = "SRTS";
 
     function connect()
     {
-        $this->conn = new mysqli($this->servername, $$this->username, $$this->password, $$this->dbname);
+
+        // Create connection
+        $this->conn = new \mysqli($this->servername, $this->username, $this->password, $this->dbname);
+        if ($this->conn->connect_error) {
+            die("Connection failed: " . $this->conn->connect_error);
+        }
+    }
+
+    function query($query)
+    {
+        return ($this->conn->query($query));
+    }
+
+    function getClearance($email)
+    {
+        $result = $this->conn->query("SELECT * FROM Clearance_Level WHERE ID = (SELECT Clearance_Level FROM ScanIN_Users WHERE Email = '$email' LIMIT 1)");
+        while($row = $result->fetch_assoc()) {
+            $clearance = array("Dashboard" => $row["Dashboard"],"Self_Member" => $row["Self_Member"],"Members" => $row["Members"],"New_Card" => $row["New_Card"],"Replace_Card" => $row["Replace_Card"],"Lost_Card" => $row["Lost_Card"],"Contact" => $row["Contact"],"Support" => $row["Support"],"Email" => $row["Email"]);
+        }
+        return($clearance);
     }
 
     function close()
     {
         $this->conn->close();
     }
+
 }

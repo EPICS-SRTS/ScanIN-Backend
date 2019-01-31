@@ -9,6 +9,7 @@ function myCoolPluginInit(plot) {
     plot.coolstring = "Hello!";
 };
 
+
 $.plot.plugins.push({ init: myCoolPluginInit, options: { ... } });
 
 // if $.plot is called, it will return a plot object with the

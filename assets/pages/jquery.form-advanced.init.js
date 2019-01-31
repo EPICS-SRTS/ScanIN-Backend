@@ -57,7 +57,7 @@ $("input[name='demo0']").TouchSpin({});
 
 
 //Bootstrap-MaxLength
-$('input#defaultconfig').maxlength()
+$('input#defaultconfig').maxlength();
 
 $('input#thresholdconfig').maxlength({
     threshold: 20
