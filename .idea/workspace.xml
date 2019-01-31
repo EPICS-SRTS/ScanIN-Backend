@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ed5298a6-c28f-4709-9161-c5caf3278382" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/backend/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/remote/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/remote/upload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remote/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/remote/database.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,20 +52,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/backend/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+            <state relative-caret-position="187">
+              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/remote/database.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+            <state relative-caret-position="136">
+              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -134,7 +134,6 @@
         <option value="$PROJECT_DIR$/ActiveMembers.php" />
         <option value="$PROJECT_DIR$/SuspendedMembers.php" />
         <option value="$PROJECT_DIR$/TerminatedMembers.php" />
-        <option value="$PROJECT_DIR$/remote/database.php" />
         <option value="$PROJECT_DIR$/backend/table.php" />
         <option value="$PROJECT_DIR$/TemporaryMembers.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
@@ -158,6 +157,7 @@
         <option value="$PROJECT_DIR$/template/variables.php" />
         <option value="$PROJECT_DIR$/account/recovery.php" />
         <option value="$PROJECT_DIR$/account/login.php" />
+        <option value="$PROJECT_DIR$/remote/database.php" />
         <option value="$PROJECT_DIR$/backend/database.php" />
       </list>
     </option>
@@ -253,12 +253,12 @@
       <workItem from="1548350015155" duration="1315000" />
       <workItem from="1548456018374" duration="34841000" />
       <workItem from="1548911196831" duration="24000" />
-      <workItem from="1548913311103" duration="1312000" />
+      <workItem from="1548913311103" duration="1393000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55544000" />
+    <option name="totallyTimeSpent" value="55625000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
@@ -586,17 +586,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/database.php">
+    <entry file="file://$PROJECT_DIR$/remote/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+        <state relative-caret-position="136">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/remote/database.php">
+    <entry file="file://$PROJECT_DIR$/backend/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="187">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
         </state>
       </provider>
     </entry>

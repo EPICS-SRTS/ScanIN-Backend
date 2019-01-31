@@ -9,9 +9,9 @@
 class database
 {
     private $servername = "localhost";
-    private $username = "SRTS_Remote";
-    private $password = "f5AiME9KKjb10ggD";
-    private $dbname = "SRTS";
+    private $username = "scanin_remote";
+    private $password = "r1s=@?s~e.sy";
+    private $dbname = "scanin_SRTS";
     private $conn;
 
     function connect()
