@@ -11,5 +11,5 @@ session_start();
 if ($_SESSION["active"]) {
     header('Location: home.php');
 } else {
-    header('Location: login.php');
+    header('Location: account/login.php');
 }
