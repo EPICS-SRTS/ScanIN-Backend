@@ -1,0 +1,53 @@
+#container {
+	max-width:400px;
+}
+#social-buttons {
+	width:100%;
+	margin-top:15px;
+}
+#social-buttons a, a#account{
+	display:block;
+	width:100%;
+	margin:2px auto;
+	padding:5px 5px;
+	color:#f5f5f5;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:0.85em;
+	transition:all ease 0.3s;
+	-webkit-transition:all ease 0.3s;
+	-moz-transition:all ease 0.3s;
+	-o-transition:all l 0.3s;
+}
+#social-buttons a:hover, a#account:hover { text-decoration:none; color:#f5f5f5; }
+#social-buttons a#fb { background-color:#3b5998; }
+#social-buttons a#fb:hover { background-color:#4061a5; }
+#social-buttons a#guest { background-color:#a4a4a4; }
+#social-buttons a#guest:hover { background-color:#ababab; }
+#social-buttons a#twitter { background-color:#4099ff; }
+#social-buttons a#twitter:hover { background-color:#51a1fe; }
+#social-buttons a#google { background-color:#d34836; }
+#social-buttons a#google:hover { background-color:#dc4c39; }
+#social-buttons a#account { background-color:#35cb4a; }
+#social-buttons a#account:hover { background-color:#38d54e; }
+a#account {
+	display:block;
+	margin-top:20px;
+	font-size:1.05em;
+	font-family:Open Sans;
+	font-weight:600;
+	background-color:#35cb4a;
+}
+a#account:hover { background-color:#38d54e; }
+
+input#username {
+	margin-bottom:30px;
+}
+a.small {
+	color:#333;
+	font-family: 'Open Sans', sans-serif;
+	font-size:0.7em;
+	letter-spacing:-0.04em;
+	font-weight:700;
+	margin-top:-15px;
+}
+a.small:hover { text-decoration:none; }

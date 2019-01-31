@@ -1,0 +1,78 @@
+h1.center, h2.center, h3.center, h4.center, h5.center, h6.center {
+	display:block;
+	width:100%;
+	text-align:center;
+	margin:-4px auto 12px auto;
+}
+
+
+/** Create ticket and create bug report form */
+#container.create-ticket, #container.create-bug-report {
+	max-width:700px !important;
+}
+.upload-files {
+	margin-top:10px;
+}
+.file {
+	margin:-10px 0;
+}
+button.btn.btn-upload-file {
+	color:#FFF;
+	font-size:0.85em;
+	padding:4px 15px;
+	font-weight:600;
+	margin:10px auto;
+	
+	max-width:80%;
+	
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+}
+.hidden{ display:none; }
+.btn-red { background-color:#ee6a6a; }
+.btn-red:hover { background-color:#f56e6e; }
+.btn-yellow { background-color:#fba64c; }
+.btn-yellow:hover { background-color:#fbac59; }
+.btn-strong-blue { background-color:#2199ff; }
+.btn-strong-blue:hover { background-color:#33a0fc; }
+.btn-bright-blue { background-color:#26a2e9; }
+.btn-bright-blue:hover { background-color:#29abf6; }
+.btn-blue { background-color:#47abe5; }
+.btn-blue:hover { background-color:#49b0ec; }
+.btn-light-blue { background-color:#94baea; }
+.btn-light-blue:hover { backgound-color:#99c0f1; }
+.btn-green { background-color:#87cd69; }
+.btn-green:hover { background-color:#8dd56e; }
+
+.btn-delete {
+	padding:4px 10px !important;
+}
+
+
+
+/* Ticket/Bug Report Submitted */
+#container p {
+	line-height:1.5em;
+	padding:0;
+	margin:0;
+}
+#container.ticket-submitted {
+	max-width:600px !important;
+}
+#container #central-container { padding-bottom:30px; }
+#container .blue-box {
+	width:100%;
+	padding:10px;
+	margin:18px auto;
+	background-color:#50afff;
+	color:#FFF;
+	font-weight:300;
+	font-size:0.95em;
+}
+#container .blue-box strong {
+	font-weight:700;
+	font-size:1.2em;
+}
+#container .blue-box a { color:#FFF; }
+#container .blue-box a:hover { text-decoration:none; color:#EAF4FF; }

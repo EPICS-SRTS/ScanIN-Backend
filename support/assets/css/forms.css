@@ -1,0 +1,265 @@
+/* Forms styling */
+.form-group {
+	margin-bottom:20px;
+}
+
+label{
+	width:100%;
+	line-height:1em;
+	font-family: 'Open Sans', sans-serif;
+	font-size:0.9em;
+	font-weight:700;
+}
+
+span.label_desc {
+	font-size:0.9em;
+	color:#888;
+	display:block;
+	margin-top:-3px;
+}
+
+input[type=text], input[type=password], input[type=email], textarea, select, #editor, .form-control {
+	width:100%;
+	font-family: 'Source Sans Pro', sans-serif !important;
+	letter-spacing:-0.03em;
+	font-size:1em;
+	padding:5px 10px;
+	border:1px solid #d0d0d0 !important;
+	color:#999;
+	border-radius:0px;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+}
+
+textarea.nostyle, textarea.nostyle:hover, textarea.nostyle:focus {
+	outline:none !important;
+	border:none;
+	box-shadow:none !important;
+	background-color:#f8f8f8;
+}
+
+input[type=text]:hover, input[type=password]:hover, input[type=email]:hover,
+textarea:hover, select:hover, #editor:hover {
+	border-color:#c0c0c0 !important;
+	color:#888 !important;
+}
+
+input[type=text]:focus, input[type=password]:focus, input[type=email]:focus,
+textarea:focus, select:focus {
+	color:#555 !important;
+	box-shadow:0 0 3px #1b7de2 !important;
+	border-color:#83c0ff !important;
+}
+
+input[type=submit] {
+	margin-top:35px;
+	font-family: 'Open Sans', sans-serif;
+	font-size:1em;
+	font-weight:600;
+	clear:both;
+	background-color:#2691ff;
+	border:none;
+	color:#FFF;
+	padding:5px 30px;
+	transition:all ease 0.2s;
+	-webkit-transition:all ease 0.2s;
+	-moz-transition:all ease 0.2s;
+	-o-transition:all l 0.2s;
+}
+input[type=submit]:hover { background-color:#429ffd; }
+input::-webkit-input-placeholder { color:#b5b5b5 !important; }
+input::-ms-placeholder { color:#b5b5b5 !important; }
+input:-moz-placeholder { color:#b5b5b5 !important; }
+input::-moz-placeholder { color:#b5b5b5 !important; }
+
+input.error, input.error:hover, input.error:focus {
+	border-color:#FF0000 !important;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+
+.btn {
+	color:#FFF;
+	border-radius:0px;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	border:none !important;
+}
+.btn:hover { color:#FFF; }
+.btn:focus { color:#FFF; }
+.btn-small {
+	font-size:0.7em;
+	padding:2px 10px;
+}
+.btn-form {
+	font-weight:600;
+	font-size:0.9em;
+	font-family:Open Sans;
+}
+.btn-dropdown {
+	font-size:0.8em;
+	font-family:Open Sans;
+	font-weight:600;
+	padding:4px 20px 4px 24px;
+	margin-top:5px;
+}
+.btn-dropdown span.caret { margin-left:5px; }
+
+.btn.besides-search {
+	margin-right:5px;
+	font-size:12px;
+	font-weight:600;
+	margin-top:6px;
+	height:28px;
+}
+
+.btn-margin { margin-top:10px !important; }
+.btn-red { background-color:#ee6a6a; }
+.btn-red:hover { background-color:#f56e6e; }
+.btn-yellow { background-color:#fba64c; }
+.btn-yellow:hover { background-color:#fbac59; }
+.btn-strong-blue { background-color:#2199ff; }
+.btn-strong-blue:hover { background-color:#33a0fc; }
+.btn-bright-blue { background-color:#26a2e9; }
+.btn-bright-blue:hover { background-color:#29abf6; }
+.btn-blue { background-color:#47abe5; }
+.btn-blue:hover { background-color:#49b0ec; }
+.btn-light-blue { background-color:#94baea; }
+.btn-light-blue:hover { backgound-color:#99c0f1; }
+.btn-green { background-color:#66DD3E; }
+.btn-green:hover { background-color:#76E041; }
+
+
+
+/* Cool checkboxes */
+.checkbox label {
+	display:inline-block;
+	position:relative;
+	padding-left:22px;
+	font-weight:700;
+	line-height:1.4em;
+}
+.checkbox label::before {
+	content: "";
+	display:inline-block;
+	position:absolute;
+	width:18px;
+	height:18px;
+	left:0px;
+	top:-1px;
+	border-radius:4px;
+	background-color:#e0e0e0;
+	transition:all ease 0.3s;
+	-webkit-transition:all ease 0.3s;
+	-moz-transition:all ease 0.3s;
+	-o-transition:all l 0.3s;
+}
+.checkbox label::after {
+	display:inline-block;
+	position:absolute;
+	width:18px;
+	height:18px;
+	left:1px;
+	top:0px;
+	padding-left:3px;
+	font-size:0.9em;
+	color:#FFF;
+}
+.checkbox input[type=checkbox] { margin-left:3px; display:none; }
+.checkbox input[type=checkbox]:checked + label::after {
+	font-family: FontAwesome;
+	content: "\f00c";
+}
+.checkbox input[type=checkbox]:checked + label::before { background-color:#438ccb; }
+.checkbox input[type=checkbox] + label:hover::before { background-color:#e8e8e8; }
+.checkbox input[type=checkbox]:checked + label:hover::before { background-color:#4d9fe6; }
+
+
+.radio label {
+	display:inline-block;
+	position:relative;
+	padding-left:20px;
+	font-weight:700;
+}
+.radio label::before {
+	content: "";
+	display:inline-block;
+	position:absolute;
+	width:16px;
+	height:16px;
+	left:-1px;
+	top:-2px;
+	border-radius:8px;
+	background-color:#e0e0e0;
+	transition:all ease 0.2s;
+	-webkit-transition:allease 0.2s;
+	-moz-transition:all ease 0.2s;
+	-o-transition:all l 0.2s;
+}
+.radio label::after {
+	content: "";
+	display:inline-block;
+	position:absolute;
+	width:10px;
+	height:10px;
+	left:2px;
+	top:1px;
+	border-radius:8px;
+}
+.radio input[type=radio] { margin-left:0px; display:none; }
+.radio input[type=radio].green:checked + label::before,
+.radio input[type=radio].green + label:hover::before {
+	background-color:#FFF;
+	border:1px solid #70e459;
+}
+.radio input[type=radio].green:checked + label::after {
+	background-color:#70e459;
+}
+.radio input[type=radio].blue:checked + label::before,
+.radio input[type=radio].blue + label:hover::before {
+	background-color:#FFF;
+	border:1px solid #2199ff;
+}
+.radio input[type=radio].blue:checked + label::after {
+	background-color:#2199ff;
+}
+.radio input[type=radio].red:checked + label::before,
+.radio input[type=radio].red + label:hover::before {
+	background-color:#FFF;
+	border:1px solid #ee7777;
+}
+.radio input[type=radio].red:checked + label::after {
+	background-color:#ee7777;
+}
+.radio input[type=radio].gray:checked + label::before,
+.radio input[type=radio].gray + label:hover::before {
+	background-color:#FFF;
+	border:1px solid #c9c9c9;
+}
+.radio input[type=radio].gray:checked + label::after {
+	background-color:#c9c9c9;
+}
+
+.upload-files {
+	margin-top:10px;
+}
+.file {
+	margin:-10px 0;
+}
+button.btn.btn-upload-file {
+	color:#FFF;
+	font-size:0.85em;
+	padding:4px 15px;
+	font-weight:600;
+	margin:10px auto;
+	
+	max-width:80%;
+	
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	overflow:hidden;
+}
+.btn-delete {
+	padding:4px 10px !important;
+}
