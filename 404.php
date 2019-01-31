@@ -29,7 +29,7 @@
                             <div class="account-logo-box">
                                 <h2 class="text-uppercase text-center">
                                     <a href="index.html" class="text-success">
-                                        <span><img src="<?php echo $URL_PATH; ?><?php echo $logoDarkPATH;?> <!--/assets/images/ScanIN_Logo_Dark.png"-->
+                                        <span><img src="<?php echo $URL_PATH; ?><?php echo $logoDarkPATH;?>
                                                    alt="" height="60"></span>
                                     </a>
                                 </h2>
