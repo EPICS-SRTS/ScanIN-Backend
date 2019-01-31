@@ -6,7 +6,7 @@
  * Time: 9:51 PM
  */
 session_start();
-$URL_PATH = "http://scaninsystem.com/admin";
+$URL_PATH = "http://admin.scaninsystem.com";
 $Brand = "ScanIN";
 $copyright = "2019 © ScanIN. - scaninsystem.com";
 $logoPATH = $URL_PATH . "/assets/images/eug_logo_draft.png";

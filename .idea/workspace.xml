@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed5298a6-c28f-4709-9161-c5caf3278382" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.cpanel.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/variables.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/variables.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template/variables.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="42" />
+              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -70,7 +69,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.cpanel.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -172,12 +171,12 @@
         <option value="$PROJECT_DIR$/profile.php" />
         <option value="$PROJECT_DIR$/template/Top_Bar.php" />
         <option value="$PROJECT_DIR$/template.php" />
-        <option value="$PROJECT_DIR$/template/variables.php" />
         <option value="$PROJECT_DIR$/account/recovery.php" />
         <option value="$PROJECT_DIR$/account/login.php" />
         <option value="$PROJECT_DIR$/remote/database.php" />
         <option value="$PROJECT_DIR$/backend/database.php" />
         <option value="$PROJECT_DIR$/.cpanel.yml" />
+        <option value="$PROJECT_DIR$/template/variables.php" />
       </list>
     </option>
   </component>
@@ -272,12 +271,12 @@
       <workItem from="1548350015155" duration="1315000" />
       <workItem from="1548456018374" duration="34841000" />
       <workItem from="1548911196831" duration="24000" />
-      <workItem from="1548913311103" duration="2029000" />
+      <workItem from="1548913311103" duration="2198000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56261000" />
+    <option name="totallyTimeSpent" value="56430000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
@@ -581,13 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/variables.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/account/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -620,6 +612,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/variables.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
         </state>
       </provider>
     </entry>
