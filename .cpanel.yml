@@ -1,0 +1,4 @@
+---
+deplyment:
+  tasks:
+    - export DEPLOYPATH=/home/scanin/public_html/admin/
