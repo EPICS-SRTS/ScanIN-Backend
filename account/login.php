@@ -40,8 +40,8 @@
                         <div class="account-box">
                             <div class="account-logo-box">
                                 <h2 class="text-uppercase text-center">
-                                    <a href="<?php echo $URL_PATH; ?>/index.html" class="text-success">
-                                        <span><img src="<?php echo $URL_PATH; ?>/assets/images/eug_logo_draft_dark.png.png" alt=""
+                                    <a href="<?php echo $URL_PATH; ?>/index.php" class="text-success">
+                                        <span><img src="<?php echo $URL_PATH; ?>/assets/images/eug_logo_draft_dark.png" alt=""
                                                    height="60"></span>
                                     </a>
                                 </h2>
@@ -92,13 +92,6 @@
                                     </div>
 
                                 </form>
-                                <div class="row m-t-50">
-                                    <div class="col-sm-12 text-center">
-                                        <p class="text-muted">Don't have an account? <a href="register.php"
-                                                                                        class="text-dark m-l-5"><b>Sign
-                                                    Up</b></a></p>
-                                    </div>
-                                </div>
 
                             </div>
                         </div>
