@@ -35,10 +35,10 @@ class database
     function getClearance($email)
     {
         $result = $this->conn->query("SELECT * FROM Clearance_Level WHERE ID = (SELECT Clearance_Level FROM ScanIN_Users WHERE Email = '$email' LIMIT 1)");
-        while($row = $result->fetch_assoc()) {
-            $clearance = array("Dashboard" => $row["Dashboard"],"Self_Member" => $row["Self_Member"],"Members" => $row["Members"],"New_Card" => $row["New_Card"],"Replace_Card" => $row["Replace_Card"],"Lost_Card" => $row["Lost_Card"],"Contact" => $row["Contact"],"Support" => $row["Support"],"Email" => $row["Email"]);
+        while ($row = $result->fetch_assoc()) {
+            $clearance = array("Dashboard" => $row["Dashboard"], "Self_Member" => $row["Self_Member"], "Members" => $row["Members"], "New_Card" => $row["New_Card"], "Replace_Card" => $row["Replace_Card"], "Lost_Card" => $row["Lost_Card"], "Contact" => $row["Contact"], "Support" => $row["Support"], "Email" => $row["Email"]);
         }
-        return($clearance);
+        return ($clearance);
     }
 
     function close()
@@ -46,4 +46,16 @@ class database
         $this->conn->close();
     }
 
+    function TESTconnect()
+    {
+
+        // Create connection
+        $this->conn = new \mysqli($this->servername, $this->username, $this->password, $this->dbname);
+        if ($this->conn->connect_error) {
+            fwrite(STDERR, "\nConnection failed: " . $this->conn->connect_error . "\n");
+            exit(1);
+        }else{
+            fwrite(STDERR, "success!\n");
+        }
+    }
 }
