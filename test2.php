@@ -7,16 +7,14 @@
  */
 
 
-$url = 'http://admin.scaninsystem.com/WHMCS/loginValidator.php';
-$data = array('username' => 'ka7640', 'password' => 'khalifa');
-$options = array(
-    'http' => array(
-        'header' => "Content-type: application/x-www-form-urlencoded\r\n",
-        'method' => 'POST',
-        'content' => http_build_query($data),
-    )
-);
+$ch = curl_init();
 
-$context = stream_context_create($options);
-$result = file_get_contents($url, false, $context);
+curl_setopt($ch, CURLOPT_URL, "http://admin.scaninsystem.com/WHMCS/loginValidator.php");
+curl_setopt($ch, CURLOPT_POST, 1);
+curl_setopt($ch, CURLOPT_POSTFIELDS,
+    "username=" . $params['username'] . "&password=" . $params['password']);
+
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+$result = curl_exec($ch);
 echo $result;
