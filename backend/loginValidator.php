@@ -41,7 +41,7 @@ if (password_verify($password, $hash)) {
 		$_SESSION["Clearance_Level"] = $row["Clearance_Level"];
     }
 
-    header('Location: ../home.php');
+    echo "lolol";
 } 
 
 if($_GET['admin'] == "login")
