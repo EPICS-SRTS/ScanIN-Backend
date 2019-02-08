@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed5298a6-c28f-4709-9161-c5caf3278382" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/backend/loginValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/loginValidator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2.php" beforeDir="false" afterPath="$PROJECT_DIR$/test2.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="loginValidator.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="loginValidator.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WHMCS/loginValidator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+            <state relative-caret-position="211">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test2.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -115,10 +124,10 @@
         <option value="$PROJECT_DIR$/template/variables.php" />
         <option value="$PROJECT_DIR$/backend/database.php" />
         <option value="$PROJECT_DIR$/test.php" />
-        <option value="$PROJECT_DIR$/test2.php" />
         <option value="$PROJECT_DIR$/WHMCS/database.php" />
         <option value="$PROJECT_DIR$/backend/loginValidator.php" />
         <option value="$PROJECT_DIR$/WHMCS/loginValidator.php" />
+        <option value="$PROJECT_DIR$/test2.php" />
       </list>
     </option>
   </component>
@@ -249,12 +258,12 @@
       <workItem from="1548964386124" duration="296000" />
       <workItem from="1548973906119" duration="1117000" />
       <workItem from="1549406968537" duration="422000" />
-      <workItem from="1549655488278" duration="1530000" />
+      <workItem from="1549655488278" duration="1698000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60621000" />
+    <option name="totallyTimeSpent" value="60789000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -576,13 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="8" selection-start-line="8" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WHMCS/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
@@ -599,8 +601,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WHMCS/loginValidator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="25" column="8" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        <state relative-caret-position="211">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
         </state>
       </provider>
     </entry>
