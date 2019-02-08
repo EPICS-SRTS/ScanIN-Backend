@@ -92,7 +92,7 @@
                                     </div>
 
                                 </form>
-
+<button href="../bsckend/loginValidator.php?admin=login">Admin Login</button>
                             </div>
                         </div>
                     </div>

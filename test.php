@@ -17,7 +17,7 @@ $database = new Database();
 //$database->TESTconnect();
 fwrite(STDERR, "Attempting to preform admin user test login...");
 $url = 'http://admin.scaninsystem.com/backend/loginValidator.php';
-$data = array('email' => 'test@scaninsystem.com', 'password' => 'test123');
+$data = array('email' => 'lee2043@purdue.edu', 'password' => 'eugene123');
 $options = array(
     'http' => array(
         'header' => "Content-type: application/x-www-form-urlencoded\r\n",

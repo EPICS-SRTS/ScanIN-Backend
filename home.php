@@ -58,8 +58,17 @@ $_SESSION['tickerr_logged'][1] = md5("Khalifa@1764");
                     </div>
                 </div>
                 <!-- end row -->
-                <h1>hello test</h1>
-                <?php echo $_SESSION["First_Name"]; ?>
+                <h1>Welcome, <?php echo $_SESSION["First_Name"]; ?> </h1>
+				You are currently signed in with the role:  <?php
+				switch ($_SESSION["Clearance_Level"])
+				{
+					case('1'): echo "Student (1)"; break;
+					case('2'): echo "General Administrator (2)"; break;
+					default: echo "Systems Administrator (N/A)"; break;
+				}
+				?>
+				<br>
+				Let's get started. What would you like to do?
             </div> <!-- container -->
 
         </div> <!-- content -->
