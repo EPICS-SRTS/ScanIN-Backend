@@ -12,9 +12,15 @@ $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, "http://admin.scaninsystem.com/WHMCS/loginValidator.php");
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS,
-    "username=" . "ka7640" . "&password=" . "khalifa");
+    "username=" . $params['serverusername'] . "&password=" . $params['serverpassword']);
 
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 
 $result = curl_exec($ch);
-echo $result;
+$obj = json_decode($result);
+$success = $obj[0];
+$errorMsg = $obj[1];
+
+echo $success;
+echo '<br>';
+echo $errorMsg;
