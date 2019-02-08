@@ -19,8 +19,8 @@
       <file leaf-file-name="loginValidator.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WHMCS/loginValidator.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="74" />
+            <state relative-caret-position="301">
+              <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -29,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/test2.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+              <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -258,12 +258,12 @@
       <workItem from="1548964386124" duration="296000" />
       <workItem from="1548973906119" duration="1117000" />
       <workItem from="1549406968537" duration="422000" />
-      <workItem from="1549655488278" duration="1836000" />
+      <workItem from="1549655488278" duration="1955000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60927000" />
+    <option name="totallyTimeSpent" value="61046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -601,15 +601,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WHMCS/loginValidator.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="74" />
+        <state relative-caret-position="301">
+          <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test2.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
         </state>
       </provider>
     </entry>

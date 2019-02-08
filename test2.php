@@ -8,7 +8,7 @@
 
 
 $url = 'http://admin.scaninsystem.com/WHMCS/loginValidator.php';
-$data = array('username' => 'ka7640', 'password' => 'ka7640');
+$data = array('username' => 'ka7640', 'password' => 'khalifa');
 $options = array(
     'http' => array(
         'header' => "Content-type: application/x-www-form-urlencoded\r\n",
