@@ -12,9 +12,9 @@ use SRTS\Admin\database as Database;
 $database = new Database();
 
 
-fwrite(STDERR, "\n\n\nStarting System Testing...\n");
-fwrite(STDERR, "Attempting to connect to database...");
-$database->TESTconnect();
+//fwrite(STDERR, "\n\n\nStarting System Testing...\n");
+//fwrite(STDERR, "Attempting to connect to database...");
+//$database->TESTconnect();
 fwrite(STDERR, "Attempting to preform admin user test login...");
 $url = 'http://admin.scaninsystem.com/backend/loginValidator.php';
 $data = array('email' => 'test@scaninsystem.com', 'password' => 'test123');
@@ -31,7 +31,7 @@ $result = file_get_contents($url, false, $context);
 var_dump($result);
 
 
-if (true) {
+if (false) {
     fwrite(STDERR, "\n\n\nSuccessfully connected to the database\n\n");
     exit(0); // A response code other than 0 is a failure
 }
