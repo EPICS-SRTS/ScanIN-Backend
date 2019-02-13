@@ -16,7 +16,7 @@
                 <?php }
                 if ($clearance["Email"]) { ?>
                     <li>
-                        <a href="<?php echo $URL_PATH; ?>/webmail/"><i class="far fa-envelope"></i><span> Email </span></a>
+                        <a href="<?php echo $URL_PATH; ?>/email/"><i class="far fa-envelope"></i><span> Email </span></a>
                     </li>
                 <?php }
                 if ($clearance["Self_Member"]) { ?>
