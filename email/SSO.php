@@ -9,6 +9,6 @@
 $sEmail="info@scaninsystem.com";
 $sPassword="Khalifa@1764";
 $sLogin=$sEmail;
-include_once '../email/system/autoload.php';
+include_once './system/autoload.php';
 \Aurora\System\Api::Init(true);
 header('Location: http://admin.scaninsystem.com/email/?sso&hash='.AuroraSystemApi::GenerateSsoToken($sEmail, $sPassword, $sLogin));
