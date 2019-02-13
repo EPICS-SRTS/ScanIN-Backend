@@ -1,0 +1,29 @@
+dist: trusty
+sudo: false
+language: php
+php:
+- '7.1.14'
+services:
+- mysql
+install:
+- mysql -e 'CREATE DATABASE aurora;'
+- composer install
+- npm install -g newman
+script:
+- php ./travis.php
+- chmod +x ./travis.sh
+- ./travis.sh -t build
+- chmod +x ./travis-plesk-builder.sh
+- ./travis-plesk-builder.sh -t build
+- ./travis-plesk-builder.sh -t log
+- ./travis-plesk-builder.sh -t zip
+after_success: 
+- ./travis.sh -t upload
+- ./travis-plesk-builder.sh -t upload
+env:
+  global:
+  - PRODUCT_NAME=webmail-lite
+  - PLESK_PRODUCT_TITLE="WebMail Lite"
+  - PLESK_PRODUCT_FULLTITLE="Afterlogic WebMail Lite 8"
+  - PLESK_PRODUCT_WEBSITE=https://afterlogic.org/webmail-lite
+  - PLESK_PRODUCT_DOWNLOAD=https://afterlogic.org/download/webmail-lite-php

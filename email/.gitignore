@@ -1,0 +1,16 @@
+/.idea
+/.vscode
+/nbproject
+/node_modules
+/vendor
+/data
+/tenants
+/modules
+/static
+/dev
+/system
+/npm-debug.log
+/composer.phar
+/composer.lock
+/package-lock.json
+/_composer_cache
