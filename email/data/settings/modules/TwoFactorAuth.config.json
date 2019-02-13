@@ -1,0 +1,10 @@
+{
+	"Disabled": [
+		true,
+		"bool"
+	],
+	"ClockTolerance": [
+		2,
+		"int"
+	]
+}
