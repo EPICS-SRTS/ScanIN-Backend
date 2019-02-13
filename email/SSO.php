@@ -8,7 +8,7 @@
 
 $sUserLogin = "info@scaninsystem.com";
 $sUserPassword = "Khalifa@1764";
-include __DIR__.'./system/autoload.php';
+include __DIR__.'/system/autoload.php';
 \Aurora\System\Api::Init();
 $aData = \Aurora\System\Api::GetModuleDecorator('Core')->Login($sUserLogin, $sUserPassword);
 if (isset($aData['AuthToken']))
