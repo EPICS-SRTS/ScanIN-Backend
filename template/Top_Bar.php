@@ -270,7 +270,7 @@
                         </li>
                         <li><a href="javascript:void(0)">Lock screen</a></li>
                         <li class="divider"></li>
-                        <li><a href="http://admin.scaninsystem.com/support/panel/logout/">Logout</a></li>
+                        <li><a href="https://admin.scaninsystem.com/support/panel/logout/">Logout</a></li>
                     </ul>
                 </li>
 

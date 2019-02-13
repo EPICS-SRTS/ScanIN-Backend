@@ -75,7 +75,7 @@ class Login extends CI_Controller
             // Is logged
             if ($this->loginactions_model->validate_session($session_user, $session_pass) == true)
                 if ($redir == 1) {
-                    header("Location: http://admin.scaninsystem.com/support/");
+                    header("Location: https://admin.scaninsystem.com/support/");
                 }
             die('3');
         }
@@ -85,7 +85,7 @@ class Login extends CI_Controller
             // Good data, save session
             $this->session->tickerr_logged = array($user, $pass);
             if ($redir == 1) {
-                header("Location: http://admin.scaninsystem.com/support/");
+                header("Location: https://admin.scaninsystem.com/support/");
             }
             die('3');
         }

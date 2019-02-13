@@ -15,6 +15,6 @@ if (isset($aData['AuthToken']))
 {
     $sAuthToken = $aData['AuthToken'];
     setcookie('AuthToken', $sAuthToken, time()+3600, "/");
-    \Aurora\System\Api::Location('http://admin.scaninsystem.com/email/');
+    \Aurora\System\Api::Location('https://admin.scaninsystem.com/email/');
 }
 exit();

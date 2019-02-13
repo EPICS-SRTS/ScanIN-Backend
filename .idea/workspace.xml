@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="ed5298a6-c28f-4709-9161-c5caf3278382" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/email/SSO.php" beforeDir="false" afterPath="$PROJECT_DIR$/email/SSO.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email/modules/AdminPanelWebclient/templates/SettingsView.html" beforeDir="false" afterPath="$PROJECT_DIR$/email/modules/AdminPanelWebclient/templates/SettingsView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/email/modules/CoreWebclient/templates/HeaderView.html" beforeDir="false" afterPath="$PROJECT_DIR$/email/modules/CoreWebclient/templates/HeaderView.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/support/application/controllers/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/support/application/controllers/Login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/Top_Bar.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/Top_Bar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/variables.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/variables.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2.php" beforeDir="false" afterPath="$PROJECT_DIR$/test2.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,11 +52,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/email/SSO.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/email/modules/AdminPanelWebclient/templates/SettingsView.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/email/modules/CoreWebclient/templates/HeaderView.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -106,17 +131,21 @@
       <find>logout</find>
       <find>AuroraSystemApi</find>
       <find>GetModuleDecorator</find>
+      <find>item logout</find>
+      <find>COREWEBCLIENT/ACTION_LOGOUT</find>
+      <find>http://admin.scaninsystem.com</find>
     </findStrings>
     <replaceStrings>
       <replace>2019-01-01 00:00:00</replace>
       <replace>$URL_PATH</replace>
+      <replace>https://admin.scaninsystem.com</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/support/application</dir>
       <dir>$PROJECT_DIR$/support</dir>
-      <dir>C:\Users\khali\Documents\GitHub\ScanIN-Backend</dir>
       <dir>C:\Users\khali\Documents\GitHub\ScanIN-Backend\support\application</dir>
       <dir>C:\Users\khali\Documents\GitHub\ScanIN-Backend\email</dir>
+      <dir>C:\Users\khali\Documents\GitHub\ScanIN-Backend</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -171,6 +200,8 @@
         <option value="$PROJECT_DIR$/email/modules/CoreWebclient/Module.php" />
         <option value="$PROJECT_DIR$/template/Left_Sidebar.php" />
         <option value="$PROJECT_DIR$/email/SSO.php" />
+        <option value="$PROJECT_DIR$/email/modules/AdminPanelWebclient/templates/SettingsView.html" />
+        <option value="$PROJECT_DIR$/email/modules/CoreWebclient/templates/HeaderView.html" />
       </list>
     </option>
   </component>
@@ -255,12 +286,12 @@
       <workItem from="1548973906119" duration="1117000" />
       <workItem from="1549406968537" duration="422000" />
       <workItem from="1549655488278" duration="4649000" />
-      <workItem from="1550037335250" duration="2467000" />
+      <workItem from="1550037335250" duration="3529000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66207000" />
+    <option name="totallyTimeSpent" value="67269000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
@@ -292,14 +323,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/support/application/views/account_confirmation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-237" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/support/application/views/panel_account_settings.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/support/application/views/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -615,6 +638,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/email/modules/AdminPanelWebclient/templates/SettingsView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/email/modules/CoreWebclient/templates/HeaderView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
         </state>
       </provider>
     </entry>
