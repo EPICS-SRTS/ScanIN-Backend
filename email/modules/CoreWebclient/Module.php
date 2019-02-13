@@ -179,7 +179,7 @@ class Module extends \Aurora\System\Module\AbstractWebclientModule
 				exit();
 			}
 			
-			$sResult = \file_get_contents($this->GetPath().'/templates/Index.html');
+			$sResult = \file_get_contents('templates/Index.html');
 			if (\is_string($sResult)) 
 			{
 				$sFrameOptions = $oSettings->GetConf('XFrameOptions', '');
