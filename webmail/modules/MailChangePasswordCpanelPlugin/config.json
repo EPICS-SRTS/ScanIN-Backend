@@ -1,0 +1,18 @@
+{
+	"Disabled": [
+		false,
+		"bool"
+	],
+	"SupportedServers": [
+		["*"],
+		"array"
+	],
+	"CpanelUser": [
+		"",
+		"string"
+	],
+	"CpanelPass": [
+		"",
+		"string"
+	]
+}
