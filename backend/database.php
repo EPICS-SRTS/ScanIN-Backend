@@ -13,7 +13,7 @@ class database
 {
     private $servername = "localhost";
     private $username = "scanin_remote";
-    private $password = "r1s=@?s~e.sy";
+    private $password = "@llLp1-yryhD";
     private $dbname = "scanin_SRTS";
     public $conn;
 

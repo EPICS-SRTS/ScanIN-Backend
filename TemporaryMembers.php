@@ -75,8 +75,12 @@
 
                 <?php $table = new \SRTS\Admin\Generator\table(); ?>
                 <?php $table->setDatabase($database); ?>
-                <?php $table->query("SELECT EID as 'Tag ID', DATE_FORMAT(Timestamp, '%M %d %Y')  as 'Date', DATE_FORMAT(Timestamp, '%h:%i %p')  as 'Time' FROM Scans"); ?>
+                <?php $table->query("SELECT EID as 'Tag ID', DATE_FORMAT(Timestamp, '%M %d %Y') 
+                                     as 'Date', DATE_FORMAT(Timestamp, '%h:%i %p') 
+                                     as 'Time' FROM Scans"); ?>
                 <?php $table->generate(); ?>
+
+
 
                 <?php $table = new \SRTS\Admin\Generator\table(); ?>
                 <?php $table->setDatabase($database); ?>
