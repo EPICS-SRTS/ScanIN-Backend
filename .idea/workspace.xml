@@ -1,111 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed5298a6-c28f-4709-9161-c5caf3278382" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/SCANIN-FRONTEND.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+    <list default="true" id="ed5298a6-c28f-4709-9161-c5caf3278382" name="Default Changelist" comment="A bit more cleaned up code">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-filemanager.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-grid.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-lightbox.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-nestable.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-rangeslider.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-ratings.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-scrollbar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-slider.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-sweet-alert.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-tiles.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin-treeview.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/database.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/loginValidator.php" beforeDir="false" afterPath="$PROJECT_DIR$/backend/loginValidator.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calendar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chart-c3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chart-chartist.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chart-chartjs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chart-echart.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chart-flot.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chart-google.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chart-justgage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chart-knob.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chart-morris.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chart-sparkline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/email-compose.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/email-inbox.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/email-read.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extras-about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extras-coming-soon.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extras-companies.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extras-email-template.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extras-faq.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extras-invoice.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extras-maintenance.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extras-members-2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extras-pricing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extras-profile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extras-search-result.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extras-sitemap.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/extras-timeline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form-advanced.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form-elements.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form-layouts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form-mask.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form-pickers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form-summernote.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form-typeahead.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form-uploads.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form-validation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form-wizard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form-wysiwig.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form-x-editable.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons-colored.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons-dripicons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons-feather.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons-file.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons-flags.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons-fontawesome.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons-materialdesign.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons-pe7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons-simple-line.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icons-typicons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/listMembers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps-google-full.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps-google.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps-mapael.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps-vector.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-404-alt.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tables-basic.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tables-datatable.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tables-editable.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tables-foo-tables.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tables-layouts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tables-responsive.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tables-tablesaw.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/taskboard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/Left_Sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/Left_Sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/variables.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/variables.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tickets.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-bootstrap.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-buttons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-carousel.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-checkbox-radio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-images.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-modals.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-notifications.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-panels.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-portlets.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-progressbars.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-ribbons.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-spinners.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-tabs.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-tooltips-popovers.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-typography.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui-video.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +28,12 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MariaDB - IoT@database.scanin.io" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="Git.Settings">
@@ -218,10 +121,21 @@
       <workItem from="1549655488278" duration="4649000" />
       <workItem from="1550037335250" duration="3529000" />
     </task>
+    <task id="LOCAL-00001" summary="A bit more cleaned up code">
+      <created>1567400350085</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567400350085</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -233,5 +147,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="A bit more cleaned up code" />
+    <option name="LAST_COMMIT_MESSAGE" value="A bit more cleaned up code" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
