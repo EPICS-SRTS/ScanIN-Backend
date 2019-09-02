@@ -54,33 +54,33 @@
                         <a href="javascript: void(0);" aria-expanded="true"><i class="fi-briefcase"></i>
                             <span> UI Kit </span> <span class="menu-arrow"></span></a>
                         <ul class="nav-second-level nav" aria-expanded="true">
-                            <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/ui-typography.html">Typography</a></li>
-                            <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/ui-panels.html">Panels</a></li>
-                            <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/ui-buttons.html">Buttons</a></li>
-                            <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/ui-modals.html">Modals</a></li>
+                            <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/ui-typography.html">Typography</a></li>
+                            <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/ui-panels.html">Panels</a></li>
+                            <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/ui-buttons.html">Buttons</a></li>
+                            <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/ui-modals.html">Modals</a></li>
                             <li>
-                                <a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/ui-checkbox-radio.html">Checkboxs-Radios</a>
+                                <a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/ui-checkbox-radio.html">Checkboxs-Radios</a>
                             </li>
-                            <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/ui-spinners.html">Spinners</a></li>
-                            <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/ui-ribbons.html">Ribbons</a></li>
-                            <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/ui-portlets.html">Portlets</a></li>
-                            <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/ui-tabs.html">Tabs</a></li>
-                            <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/ui-progressbars.html">Progress Bars</a>
+                            <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/ui-spinners.html">Spinners</a></li>
+                            <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/ui-ribbons.html">Ribbons</a></li>
+                            <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/ui-portlets.html">Portlets</a></li>
+                            <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/ui-tabs.html">Tabs</a></li>
+                            <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/ui-progressbars.html">Progress Bars</a>
                             </li>
-                            <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/ui-notifications.html">Notification</a>
+                            <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/ui-notifications.html">Notification</a>
                             </li>
-                            <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/ui-carousel.html">Carousel</a>
-                            <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/ui-video.html">Video</a>
-                            <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/ui-tooltips-popovers.html">Tooltips &
+                            <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/ui-carousel.html">Carousel</a>
+                            <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/ui-video.html">Video</a>
+                            <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/ui-tooltips-popovers.html">Tooltips &
                                     Popovers</a>
                             </li>
-                            <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/ui-images.html">Images</a></li>
-                            <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/ui-bootstrap.html">Bootstrap UI</a></li>
+                            <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/ui-images.html">Images</a></li>
+                            <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/ui-bootstrap.html">Bootstrap UI</a></li>
                         </ul>
                     </li>
                 <?php } ?>
                 <li>
-                    <a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/tickets.html"><i class="fi-help"></i><span
+                    <a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/tickets.html"><i class="fi-help"></i><span
                                 class="badge badge-danger pull-right">New</span>
                         <span> Tickets </span></a>
                 </li>
@@ -89,18 +89,18 @@
                     <a href="javascript: void(0);" aria-expanded="true"><i class="fi-box"></i><span> Icons </span> <span
                                 class="menu-arrow"></span></a>
                     <ul class="nav-second-level nav" aria-expanded="true">
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/icons-colored.html">Colored Icons</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/icons-materialdesign.html">Material Design</a>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/icons-colored.html">Colored Icons</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/icons-materialdesign.html">Material Design</a>
                         </li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/icons-dripicons.html">Dripicons</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/icons-fontawesome.html">Font awesome</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/icons-feather.html">Feather Icons</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/icons-simple-line.html">Simple line Icons</a>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/icons-dripicons.html">Dripicons</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/icons-fontawesome.html">Font awesome</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/icons-feather.html">Feather Icons</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/icons-simple-line.html">Simple line Icons</a>
                         </li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/icons-flags.html">Flag Icons</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/icons-file.html">File Icons</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/icons-pe7.html">PE7 Icons</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/icons-typicons.html">Typicons</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/icons-flags.html">Flag Icons</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/icons-file.html">File Icons</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/icons-pe7.html">PE7 Icons</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/icons-typicons.html">Typicons</a></li>
                     </ul>
                 </li>
 
@@ -108,16 +108,16 @@
                     <a href="javascript: void(0);" aria-expanded="true"><i
                                 class="fi-bar-graph-2"></i><span> Graphs </span> <span class="menu-arrow"></span></a>
                     <ul class="nav-second-level nav" aria-expanded="true">
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/chart-flot.html">Flot Chart</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/chart-morris.html">Morris Chart</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/chart-google.html">Google Chart</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/chart-echart.html">Echarts</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/chart-chartist.html">Chartist Charts</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/chart-chartjs.html">Chartjs Chart</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/chart-c3.html">C3 Chart</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/chart-justgage.html">Justgage Charts</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/chart-sparkline.html">Sparkline Chart</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/chart-knob.html">Jquery Knob</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/chart-flot.html">Flot Chart</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/chart-morris.html">Morris Chart</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/chart-google.html">Google Chart</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/chart-echart.html">Echarts</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/chart-chartist.html">Chartist Charts</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/chart-chartjs.html">Chartjs Chart</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/chart-c3.html">C3 Chart</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/chart-justgage.html">Justgage Charts</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/chart-sparkline.html">Sparkline Chart</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/chart-knob.html">Jquery Knob</a></li>
                     </ul>
                 </li>
 
@@ -125,32 +125,32 @@
                     <a href="javascript: void(0);" aria-expanded="true"><i class="fi-mail"></i><span> Email </span>
                         <span class="menu-arrow"></span></a>
                     <ul class="nav-second-level nav" aria-expanded="true">
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/email-inbox.html">Inbox</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/email-read.html">Read Email</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/email-compose.html">Compose Email</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/email-inbox.html">Inbox</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/email-read.html">Read Email</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/email-compose.html">Compose Email</a></li>
                     </ul>
                 </li>
 
                 <li>
-                    <a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/taskboard.html"><i class="fi-paper"></i> <span> Task Board </span></a>
+                    <a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/taskboard.html"><i class="fi-paper"></i> <span> Task Board </span></a>
                 </li>
 
                 <li>
                     <a href="javascript: void(0);" aria-expanded="true"><i class="fi-disc"></i><span
                                 class="badge badge-warning pull-right">12</span> <span> Forms </span></a>
                     <ul class="nav-second-level nav" aria-expanded="true">
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/form-elements.html">Form Elements</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/form-advanced.html">Form Advanced</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/form-layouts.html">Form Layouts</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/form-validation.html">Form Validation</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/form-pickers.html">Form Pickers</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/form-wizard.html">Form Wizard</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/form-mask.html">Form Masks</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/form-summernote.html">Summernote</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/form-wysiwig.html">Wysiwig Editors</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/form-typeahead.html">Typeahead</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/form-x-editable.html">X Editable</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/form-uploads.html">Multiple File Upload</a>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/form-elements.html">Form Elements</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/form-advanced.html">Form Advanced</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/form-layouts.html">Form Layouts</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/form-validation.html">Form Validation</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/form-pickers.html">Form Pickers</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/form-wizard.html">Form Wizard</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/form-mask.html">Form Masks</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/form-summernote.html">Summernote</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/form-wysiwig.html">Wysiwig Editors</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/form-typeahead.html">Typeahead</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/form-x-editable.html">X Editable</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/form-uploads.html">Multiple File Upload</a>
                         </li>
                     </ul>
                 </li>
@@ -159,14 +159,14 @@
                     <a href="javascript: void(0);" aria-expanded="true"><i class="fi-layout"></i> <span> Tables </span>
                         <span class="menu-arrow"></span></a>
                     <ul class="nav-second-level nav" aria-expanded="true">
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/tables-basic.html">Basic Tables</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/tables-layouts.html">Tables Layouts</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/tables-datatable.html">Data Tables</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/tables-foo-tables.html">Foo Tables</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/tables-responsive.html">Responsive Table</a>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/tables-basic.html">Basic Tables</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/tables-layouts.html">Tables Layouts</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/tables-datatable.html">Data Tables</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/tables-foo-tables.html">Foo Tables</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/tables-responsive.html">Responsive Table</a>
                         </li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/tables-tablesaw.html">Tablesaw Tables</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/tables-editable.html">Editable Tables</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/tables-tablesaw.html">Tablesaw Tables</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/tables-editable.html">Editable Tables</a></li>
                     </ul>
                 </li>
 
@@ -176,15 +176,15 @@
                     <a href="javascript: void(0);" aria-expanded="true"><i class="fi-map"></i> <span> Maps </span> <span
                                 class="menu-arrow"></span></a>
                     <ul class="nav-second-level nav" aria-expanded="true">
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/maps-google.html">Google Maps</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/maps-google-full.html">Full Google Map</a>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/maps-google.html">Google Maps</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/maps-google-full.html">Full Google Map</a>
                         </li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/maps-vector.html">Vector Maps</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/maps-mapael.html">Mapael Maps</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/maps-vector.html">Vector Maps</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/maps-mapael.html">Mapael Maps</a></li>
                     </ul>
                 </li>
 
-                <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/calendar.html"><i class="fi-clock"></i>
+                <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/calendar.html"><i class="fi-clock"></i>
                         <span>Calendar</span> </a>
                 </li>
 
@@ -200,7 +200,7 @@
                         <li><a href="<?php echo $URL_PATH; ?>/page-lock-screen.html">Lock Screen</a></li>
                         <li><a href="<?php echo $URL_PATH; ?>/page-confirm-mail.html">Confirm Mail</a></li>
                         <li><a href="<?php echo $URL_PATH; ?>/page-404.html">Error 404</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/page-404-alt.html">Error 404-alt</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/page-404-alt.html">Error 404-alt</a></li>
                         <li><a href="<?php echo $URL_PATH; ?>/page-500.html">Error 500</a></li>
                     </ul>
                 </li>
@@ -209,28 +209,28 @@
                     <a href="javascript:void(0);"><i class="fi-marquee-plus"></i><span> Extra Pages </span> <span
                                 class="menu-arrow"></span></a>
                     <ul class="nav-second-level nav" aria-expanded="true">
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/extras-about.html">About Us</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/extras-about.html">About Us</a></li>
                         <li><a href="<?php echo $URL_PATH; ?>/contact.php">Contact</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/extras-companies.html">Companies</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/extras-companies.html">Companies</a></li>
                         <li><a href="<?php echo $URL_PATH; ?>/extras-members.html">Members</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/extras-members-2.html">Membars 2</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/extras-timeline.html">Timeline</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/extras-invoice.html">Invoice</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/extras-maintenance.html">Maintenance</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/extras-coming-soon.html">Coming Soon</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/extras-faq.html">FAQ</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/extras-pricing.html">Pricing</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/extras-profile.html">Profile</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/extras-email-template.html">Email
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/extras-members-2.html">Membars 2</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/extras-timeline.html">Timeline</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/extras-invoice.html">Invoice</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/extras-maintenance.html">Maintenance</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/extras-coming-soon.html">Coming Soon</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/extras-faq.html">FAQ</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/extras-pricing.html">Pricing</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/extras-profile.html">Profile</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/extras-email-template.html">Email
                                 Templates</a></li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/extras-search-result.html">Search Results</a>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/extras-search-result.html">Search Results</a>
                         </li>
-                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/extras-sitemap.html">Site Map</a></li>
+                        <li><a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/extras-sitemap.html">Site Map</a></li>
                     </ul>
                 </li>
 
                 <li>
-                    <a href="<?php echo $URL_PATH; ?>/TEMPLATE_OG/todo.html"><i class="fi-layers"></i>
+                    <a href="<?php echo $URL_PATH; ?>/TEMPLATE_HTMLs/todo.html"><i class="fi-layers"></i>
                         <span> Todo </span></a>
                 </li>
 
