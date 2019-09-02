@@ -15,7 +15,7 @@ $database->connect();
 $email = $_POST["email"];
 $password = $_POST["password"];
 
-$sql = "SELECT `Password` FROM `ScanIN_Users` WHERE `Email` = '" . $email . "'";
+$sql = "SELECT `Password` FROM `USERS` WHERE `Email` = '" . $email . "'";
 $result = $database->conn->query($sql);
 
 if ($result->num_rows > 0) {
@@ -29,7 +29,7 @@ if ($result->num_rows > 0) {
 
 
 if (password_verify($password, $hash)) {
-    $sql = "SELECT * FROM `ScanIN_Users` WHERE `Email` = '" . $email . "'";
+    $sql = "SELECT * FROM `USERS` WHERE `Email` = '" . $email . "'";
     $result = $database->conn->query($sql);
     while ($row = $result->fetch_assoc()) {
         $_SESSION["Email"] = $email;
