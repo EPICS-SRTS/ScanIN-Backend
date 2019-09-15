@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebResourcesPaths">
+    <contentEntries>
+      <entry url="file://$PROJECT_DIR$">
+        <entryData>
+          <resourceRoots>
+            <path value="file://$PROJECT_DIR$/TEMPLATE_HTML" />
+            <path value="file://$PROJECT_DIR$/account" />
+            <path value="file://$PROJECT_DIR$/assets" />
+            <path value="file://$PROJECT_DIR$/backend" />
+            <path value="file://$PROJECT_DIR$/email" />
+            <path value="file://$PROJECT_DIR$/email-templates" />
+            <path value="file://$PROJECT_DIR$/plugins" />
+            <path value="file://$PROJECT_DIR$/remote" />
+            <path value="file://$PROJECT_DIR$/ScanIN-Backend" />
+            <path value="file://$PROJECT_DIR$/support" />
+            <path value="file://$PROJECT_DIR$/template" />
+            <path value="file://$PROJECT_DIR$/WHMCS" />
+          </resourceRoots>
+        </entryData>
+      </entry>
+    </contentEntries>
+  </component>
+</project>
