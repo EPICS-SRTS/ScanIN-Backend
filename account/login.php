@@ -46,7 +46,7 @@
                                     </a>
                                 </h2>
                                 <h5 class="text-uppercase font-bold m-b-5 m-t-50">Sign In</h5>
-                                <p class="m-b-0">Login to your ScanIN account</p>
+                                <p class="m-b-0">Login to your ScanIN accountaa</p>
                             </div>
                             <div class="account-content">
                                 <form class="form-horizontal" action="<?php echo $URL_PATH; ?>/backend/loginValidator.php" method="post">
