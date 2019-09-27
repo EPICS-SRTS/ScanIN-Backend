@@ -13,10 +13,10 @@ use mysqli;
 
 class database
 {
-    private $servername = "database.scanin.io";
-    private $username = "webapp";
-    private $password = "ptOwNUG1Nm96MND9";
-    private $dbname = "IoT";
+    private $servername = "localhost";
+    private $username = "admin_backend";
+    private $password = "9EXNKgrUBK";
+    private $dbname = "admin_SCAN";
     public $conn;
 
     function connect()
