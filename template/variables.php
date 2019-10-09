@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * Created by PhpStorm.
  * User: khali
@@ -6,7 +6,7 @@
  * Time: 9:51 PM
  */
 session_start();
-$URL_PATH = "http://admin.scanin.io";
+$URL_PATH = "https://admin.scanin.io";
 $Brand = "ScanIN";
 $copyright = "2019 © ScanIN. - scanin.io";
 $logoPATH = $URL_PATH . "/assets/images/eug_logo_draft.png";
