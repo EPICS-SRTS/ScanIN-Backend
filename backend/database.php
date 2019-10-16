@@ -13,10 +13,10 @@ use mysqli;
 
 class database
 {
-    private $servername = "database.scanin.io";
-    private $username = "webapp";
-    private $password = "ptOwNUG1Nm96MND9";
-    private $dbname = "IoT";
+    private $servername = "localhost";
+    private $username = "admin_backend";
+    private $password = "9EXNKgrUBK";
+    private $dbname = "admin_SCAN";
     public $conn;
 
     function connect()
@@ -36,7 +36,7 @@ class database
 
     function getClearance($email)
     {
-        $result = $this->conn->query("SELECT * FROM CLEARANCE_LEVEL WHERE ID = (SELECT CLEARANCE_LEVEL FROM USERS WHERE Email = '$email' LIMIT 1)");
+        $result = $this->conn->query("SELECT * FROM Clearance_Level WHERE ID = (SELECT Clearance_Level FROM ScanIN_Users WHERE Email = '$email' LIMIT 1)");
         while ($row = $result->fetch_assoc()) {
             $clearance = array("Dashboard" => $row["Dashboard"], "Self_Member" => $row["Self_Member"], "Members" => $row["Members"], "New_Card" => $row["New_Card"], "Replace_Card" => $row["Replace_Card"], "Lost_Card" => $row["Lost_Card"], "Contact" => $row["Contact"], "Support" => $row["Support"], "Email" => $row["Email"]);
         }
