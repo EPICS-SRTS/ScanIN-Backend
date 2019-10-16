@@ -54,7 +54,7 @@
                     </div>
                 </div>
                 <!-- end row -->
-                <h1>This is my data</h1>
+                <h1>This is data</h1>
 
                 <?php $table = new \SRTS\Admin\Generator\table(); ?>
                 <?php $table->setDatabase($database); ?>
